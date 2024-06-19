@@ -28,3 +28,6 @@ This folder contains all the shapefiles needed to create the map of Gough Island
 3.Reference annotations (point shapefile) of Tristan Albatrosses in cloud-free region of the satellite image.
 4.Fishnet grid (100m x 100m) and FID created in ArcGIS Pro to extract a subset of image chips to assess interobserver reliability.
 5.Gough Island landscape features, including coastline, ocean, contours (50 m and 200 m intervals) and mountain peaks. This information was extracted from a <10 m resolution Digital Terrain Model.
+
+Funding
+Funding was provided by the Darwin Initiative (grant ID: DPR9S2\1032).
