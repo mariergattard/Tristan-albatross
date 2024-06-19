@@ -5,7 +5,9 @@ The Tristan Albatross Diomedea dabbenena is a critically endangered species that
 Annotations were visualised and processed in ArcGIS Pro (version 1.3) and all analysis was conducted in R statistical software (version 4.3.2). All data and R scripts are available here, and are separated into 3 folders:
 
 Folder 1: Tristan albatross satellite detectability
+
 This folder contains the R script, data input and table/figure output for assessing detectability of Tristan albatrosses in 31 cm satellite imagery based on reference annotations. The zipped folder contains the following items:
+
 1."Tristan_albatross_age_sex" csv file containing the minimum age and sex of each nesting bird before and after the satellite image was taken.
 
 2."Tristan_albatross_satellite_detectability" csv file listing all nesting birds that were detected in 31 cm orthorectified satellite image. There are 152 nests in satellite image according to nest GPS coordinates.
@@ -16,7 +18,9 @@ This folder contains the R script, data input and table/figure output for assess
 
 5.The outputs from the R script are in the 'R script Output' folder.
 
+
 Folder 2: Interobserver reliability
+
 This folder contains the R script, data input and table/figure output for assessing interobserver reliability among 9 observers in detecting Tristan albatrosses in 31 cm satellite imagery. The zipped folder contains the following items:
 
 1.Folder containing volunteer instructions and 30 tiles (Dimensions: 100 m x 100 m in jpeg format) extracted from 2017/18 satellite image of Gough Island, which were annotated by 9 volunteers. This includes 24 tiles where Tristan albatross nests were present. All tiles were from the Gonydale and Hummocks breeding area.
@@ -30,7 +34,9 @@ Raw data folder containing all the raw output (csv format) from the 9 observers 
 
 5.The outputs from the R script are in the 'Figures' and 'R script Output' folder.
 
+
 Folder 3: Gough Island map
+
 This folder contains all the shapefiles needed to create the map of Gough Island in Figure 1 of the manuscript. The Digital Terrain Model is not included due to licence restrictions.
 
 1.Tristan Albatross nest boundaries on Gough Island including Gonydale and the Hummocks, provided by RSPB.
