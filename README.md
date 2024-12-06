@@ -1,53 +1,105 @@
-# Tristan-albatross
+# Tristan Albatross Satellite Detection Analysis
+This Python script analyses the detectability of Tristan Albatrosses (Diomedea dabbenena) in high-resolution WorldView-4 satellite imagery (31 cm resolution) captured over Gough Island, Tristan da Cunha. The goal is to assess the feasibility of remotely counting the population of this critically endangered species during the breeding season.
 
-The Tristan Albatross Diomedea dabbenena is a critically endangered species that breeds almost exclusively on Gough Island (Tristan da Cunha). Incidental mortality (bycatch) in fisheries and chick predation by invasive house mice Mus musculus have led to an ongoing population decline. Regular on-the-ground monitoring of Tristan Albatross populations may be reduced or discontinued in the future due to financial and logistical constraints, and therefore alternative methods would be required for determining long-term population trends. Here, we assessed the viability of using 31 cm resolution WorldView-4 satellite imagery to count Tristan Albatrosses remotely during the breeding season on Gough Island. Counts of birds in satellite images by a wildlife remote-sensing specialist were compared to GPS coordinates of active nests recorded in the field. In total, birds were visible at only 84 (55.3%) of the 152 active nests in the cloud-free regions of the satellite image captured in February 2018. Acquisition of suitable imagery is a major challenge for this species because its upland nesting sites are prone to low-lying orographic cloud, and only one cloud-free image could be obtained over eight seasons. Incomplete detection because of persistent cloud on the island is such that the Tristan Albatross cannot be counted reliably using 31 cm resolution satellite imagery. Differences in nest attributes and bird plumage did not explain variation in detection probability. The addition of more commercial satellites in orbit may increase the chance of obtaining cloud-free imagery across the island in the future, but until then on-the-ground monitoring must continue to obtain accurate population counts and for the UK to meet its commitments to monitor this critically endangered species.
+Table of Contents
+Introduction
+Data
+Script Overview
+Installation
+Usage
+Output
+Reusing or Adapting the Script
+Licence
+Funding
+Introduction
+The Tristan Albatross is a critically endangered species, with a declining population due to bycatch and predation. Monitoring efforts face challenges due to financial constraints, and satellite imagery offers a potential alternative for population monitoring. This analysis uses WorldView-4 satellite imagery to determine how visible albatrosses are in the satellite data.
 
-Annotations were visualised and processed in ArcGIS Pro (version 1.3) and all analysis was conducted in R statistical software (version 4.3.2). All data and R scripts are available here, and are separated into 3 folders:
+The Python script provided helps automate this analysis, processing satellite imagery data and generating the required figures and tables to evaluate the detection of Tristan Albatrosses.
 
-Folder 1: Tristan albatross satellite detectability
+Data
+All data for this project is organised into subfolders within the Data folder as described below:
 
-This folder contains the R script, data input and table/figure output for assessing detectability of Tristan albatrosses in 31 cm satellite imagery based on reference annotations. The zipped folder contains the following items:
+Nest Boundaries: Shapefiles of Tristan Albatross nest boundaries on Gough Island, including Gonydale and the Hummocks, provided by RSPB.
+GPS Coordinates: GPS coordinates of Tristan Albatross nests in cloud-free regions of the satellite image, provided by RSPB for the 2017/18 breeding season.
+Reference Annotations: Point shapefiles of Tristan Albatrosses in cloud-free regions of the satellite image.
+Fishnet Grid and FID: A 100m x 100m fishnet grid and FID created in ArcGIS Pro for extracting a subset of image chips to assess interobserver reliability.
+Gough Island Landscape Features: Shapefiles for Gough Island’s landscape features (coastline, ocean, contours, and mountain peaks), extracted from a Digital Terrain Model with <10 m resolution.
+Bird Information:
+Tristan_albatross_age_sex.csv: Minimum age and sex of each nesting bird.
+Tristan_albatross_satellite_detectability.csv: Listing of nesting birds detected in the 31 cm orthorectified satellite image (152 nests).
+Tristan_albatross_nest_location.csv: Slope and aspect data of 152 nests.
+Reference Annotations Data: A CSV file with a readme sheet, listing all active nests detected in satellite imagery and those that could not be detected. The 'region count' column lists the number of birds counted within each image chip.
+Tile ID Coordinates: A CSV file listing the latitude and longitude of the top-left corner of each image chip raster, used for converting x,y pixel coordinates into geographical coordinates.
+Raw Data Folder: Contains CSV files with raw output from 9 observers using VGG Image Annotator (VIA), which is used for assessing interobserver reliability.
+Script Overview
+The Python script processes the data and performs the necessary analysis to determine the visibility and detectability of Tristan Albatrosses in satellite imagery. It uses the input data from the various folders and generates output plots and tables for further analysis.
 
-1."Tristan_albatross_age_sex" csv file containing the minimum age and sex of each nesting bird before and after the satellite image was taken.
+Script Workflow:
+Loads the necessary data (CSV, XLSX, or JPEG files from the Data folder).
+Processes the satellite imagery data and field survey nest GPS coordinates.
+Conducts an analysis to assess albatross detectability based on various predictors.
+Generates output plots (figures) and tables, which are saved in the output folder.
+Installation
+To run this analysis, you'll need Python installed along with the required dependencies. Here's how to get started:
 
-2."Tristan_albatross_satellite_detectability" csv file listing all nesting birds that were detected in 31 cm orthorectified satellite image. There are 152 nests in satellite image according to nest GPS coordinates.
+Clone the repository:
 
-3."Tristan_albatross_nest_location" contains the slope and aspect of 152 nests in cloud-free regions of satellite image.
+bash
+Copy code
+git clone https://github.com/your-username/project-name.git
+cd project-name
+Set up a virtual environment (recommended):
 
-4.R script titled "R_markdown_Tristan_albatross_satellite_detectability". This script contains all analysis for determining influential predictors of Tristan Albatross detectability in 31 cm satellite imagery, using csv files in this folder. The figure and table outputs are in the 'R script output' folder.
+bash
+Copy code
+python -m venv venv
+Install the required dependencies:
 
-5.The outputs from the R script are in the 'R script Output' folder.
+bash
+Copy code
+pip install -r requirements.txt
+If no requirements.txt is available, manually install the necessary Python packages (e.g., pandas, matplotlib, numpy, etc.).
 
+Usage
+This script was originally written in Jupyter Notebook. To run it, follow the steps below:
 
-Folder 2: Interobserver reliability
+Install Jupyter Notebook if it's not already installed:
 
-This folder contains the R script, data input and table/figure output for assessing interobserver reliability among 9 observers in detecting Tristan albatrosses in 31 cm satellite imagery. The zipped folder contains the following items:
+bash
+Copy code
+pip install jupyterlab
+Run the script in Jupyter Notebook:
 
-1.Folder containing volunteer instructions and 30 tiles (Dimensions: 100 m x 100 m in jpeg format) extracted from 2017/18 satellite image of Gough Island, which were annotated by 9 volunteers. This includes 24 tiles where Tristan albatross nests were present. All tiles were from the Gonydale and Hummocks breeding area.
+Open the Jupyter Notebook interface:
 
-2."Clustered_2m_observer_data" csv file contains the 2 m clustered dataset based on agreement between observers. The clustered data was created in ArcGIS Pro. Each row contains a separate clustered tag ID (column A), representing a single presumed albatross. The agreement score (column B) states how many unique observers placed a tag within 2 m of each other at this location. The latitude and longitude (columns H and I) coordinates (WGS 1984 UTM Zone 29S) are taken from a random point within the buffer. Columns E and F show the location of the tag based on the number of pixels across (x) and down (y) from the top left cell of the image chip raster.
+bash
+Copy code
+jupyter notebook
+In the Jupyter interface, navigate to the folder where your script is located and open the Python script (tristan_albatross_analysis.ipynb). Then, run the notebook cells one by one.
 
-3."Reference_annotations_data" csv file contains a read me sheet describing each column, and two additional sheets: one contains a list of all active nests that could be detected in satellite imagery based on reference annotations and the second lists all active nests that could not be seen in satellite imagery based on reference annotations. The number of birds counted inside each image chip (tag ID) is listed under the 'region count' column. This dataset was created in ArcGIS Pro.
+Make sure the input data is in the correct location:
 
-4."Tile_ID_coordinate_data" csv file lists the latitude and longitude of the top left cell in each image chip raster. This was used to convert the x, y pixel coordinates of each tag into latitude and longitude using the R script.
-Raw data folder containing all the raw output (csv format) from the 9 observers using VGG image annotator (VIA). This dataset was used to assess interobserver reliability.
+The Data folder should be placed in the same directory as the notebook and should contain all the required data files.
+The output folder will store the results of the analysis (figures and tables).
+Run the notebook by selecting each cell and clicking "Run" or use Shift + Enter to execute the cells.
 
-5.The outputs from the R script are in the 'Figures' and 'R script Output' folder.
+Example Input/Output
+Input: Satellite image data, nest coordinates, and volunteer-labelled data.
+Output: Generated figures (plots) and tables stored in the output folder.
+Output
+The script generates the following outputs:
 
+Figures: Graphs and visualisations showing albatross detectability and observer reliability.
+Tables: Quantitative data related to the analysis of detectability, observer agreement, and other factors.
+All output will be saved in the output folder.
 
-Folder 3: Gough Island map
+Reusing or Adapting the Script
+Please cite our manuscript if you reuse or adapt this script:
 
-This folder contains all the shapefiles needed to create the map of Gough Island in Figure 1 of the manuscript. The Digital Terrain Model is not included due to licence restrictions.
+Marie R. G. Attard, Richard A. Phillips, Steffen Oppel, Ellen Bowler and Peter T. Fretwell (In Review) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses Diomedea dabbenena on Gough Island. Endangered Species Journal.
 
-1.Tristan Albatross nest boundaries on Gough Island including Gonydale and the Hummocks, provided by RSPB.
-
-2.Nest GPS coordinates of Tristan Albatrosses in cloud-free region of satellite image provided by RSPB for the 2017/18 breeding season.
-
-3.Reference annotations (point shapefile) of Tristan Albatrosses in cloud-free region of the satellite image.
-
-4.Fishnet grid (100m x 100m) and FID created in ArcGIS Pro to extract a subset of image chips to assess interobserver reliability.
-
-5.Gough Island landscape features, including coastline, ocean, contours (50 m and 200 m intervals) and mountain peaks. This information was extracted from a <10 m resolution Digital Terrain Model.
+Licence
+The satellite images used in this study are under the Maxar Satellite Imagery licence agreement: https://www.maxar.com/legal/internal-use-license
 
 Funding
-Funding was provided by the Darwin Initiative (grant ID: DPR9S2\1032).
+Funding was provided by the Darwin Plus (grant ID: DPR9S2\1032). Further project information can be found on the Darwin Initiative website:  https://www.darwininitiative.org.uk/project/DPLUS132
