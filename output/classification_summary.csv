@@ -1,0 +1,111 @@
+actual_observer,predicted_observer,Recall,Precision
+gold standard,gold standard,,
+obs1,gold standard,0.94,0.46
+obs2,gold standard,0.76,0.63
+obs3,gold standard,0.65,0.49
+obs4,gold standard,0.62,0.51
+obs5,gold standard,0.48,0.63
+obs6,gold standard,0.85,0.49
+obs7,gold standard,0.66,0.54
+obs8,gold standard,0.52,0.66
+obs9,gold standard,0.42,0.69
+mean,gold standard,,
+gold standard,obs1,0.46,0.94
+obs1,obs1,,
+obs2,obs1,0.55,0.94
+obs3,obs1,0.58,0.88
+obs4,obs1,0.52,0.88
+obs5,obs1,0.37,1.0
+obs6,obs1,0.75,0.88
+obs7,obs1,0.52,0.88
+obs8,obs1,0.36,0.94
+obs9,obs1,0.3,1.0
+mean,obs1,0.93,0.49
+gold standard,obs2,0.63,0.76
+obs1,obs2,0.94,0.55
+obs2,obs2,,
+obs3,obs2,0.69,0.62
+obs4,obs2,0.72,0.72
+obs5,obs2,0.52,0.83
+obs6,obs2,0.95,0.66
+obs7,obs2,0.72,0.72
+obs8,obs2,0.52,0.79
+obs9,obs2,0.44,0.86
+mean,obs2,0.72,0.68
+gold standard,obs3,0.49,0.65
+obs1,obs3,0.88,0.58
+obs2,obs3,0.62,0.69
+obs3,obs3,,
+obs4,obs3,0.62,0.69
+obs5,obs3,0.41,0.73
+obs6,obs3,0.9,0.69
+obs7,obs3,0.66,0.73
+obs8,obs3,0.41,0.69
+obs9,obs3,0.39,0.85
+mean,obs3,0.7,0.6
+gold standard,obs4,0.51,0.62
+obs1,obs4,0.88,0.52
+obs2,obs4,0.72,0.72
+obs3,obs4,0.69,0.62
+obs4,obs4,,
+obs5,obs4,0.52,0.83
+obs6,obs4,0.9,0.62
+obs7,obs4,0.72,0.72
+obs8,obs4,0.45,0.69
+obs9,obs4,0.44,0.86
+mean,obs4,0.69,0.65
+gold standard,obs5,0.63,0.48
+obs1,obs5,1.0,0.37
+obs2,obs5,0.83,0.52
+obs3,obs5,0.73,0.41
+obs4,obs5,0.83,0.52
+obs5,obs5,,
+obs6,obs5,0.95,0.41
+obs7,obs5,0.76,0.48
+obs8,obs5,0.57,0.54
+obs9,obs5,0.67,0.83
+mean,obs5,0.51,0.78
+gold standard,obs6,0.49,0.85
+obs1,obs6,0.88,0.75
+obs2,obs6,0.66,0.95
+obs3,obs6,0.69,0.9
+obs4,obs6,0.62,0.9
+obs5,obs6,0.41,0.95
+obs6,obs6,,
+obs7,obs6,0.62,0.9
+obs8,obs6,0.43,0.95
+obs9,obs6,0.33,0.95
+mean,obs6,0.9,0.57
+gold standard,obs7,0.54,0.66
+obs1,obs7,0.88,0.52
+obs2,obs7,0.72,0.72
+obs3,obs7,0.73,0.66
+obs4,obs7,0.72,0.72
+obs5,obs7,0.48,0.76
+obs6,obs7,0.9,0.62
+obs7,obs7,,
+obs8,obs7,0.45,0.69
+obs9,obs7,0.46,0.9
+mean,obs7,0.69,0.65
+gold standard,obs8,0.66,0.52
+obs1,obs8,0.94,0.36
+obs2,obs8,0.79,0.52
+obs3,obs8,0.69,0.41
+obs4,obs8,0.69,0.45
+obs5,obs8,0.54,0.57
+obs6,obs8,0.95,0.43
+obs7,obs8,0.69,0.45
+obs8,obs8,,
+obs9,obs8,0.49,0.64
+mean,obs8,0.48,0.72
+gold standard,obs9,0.69,0.42
+obs1,obs9,1.0,0.3
+obs2,obs9,0.86,0.44
+obs3,obs9,0.88,0.4
+obs4,obs9,0.86,0.44
+obs5,obs9,0.85,0.68
+obs6,obs9,0.95,0.33
+obs7,obs9,0.9,0.46
+obs8,obs9,0.64,0.49
+obs9,obs9,,
+mean,obs9,0.44,0.84
