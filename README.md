@@ -166,7 +166,7 @@ Generalised linear model (GLM) results for the influence of minimum age on the d
 ### GLM model comparison
 Generalised linear models (GLM) testing the effects of incubating parent (sex, minimum age) and nest characteristics (slope and aspect) on detectability of Tristan albatrosses in a 31 cm resolution satellite image (n=52). 
 
-###Observer performance
+### Observer performance
 Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to gold standard and active nests.
 
 ### Gold standard
