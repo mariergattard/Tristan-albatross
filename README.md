@@ -23,7 +23,7 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
     * [GLM model comparison](#glm-model-comparison)
     * [Chi-squared test](#chi-squared-test)
     * [Observer performance](#pbserver-performance)
-    * [Gold standard](#gold-standard)
+    * [Gold standard performance](#gold-standard-performance)
     * [Observer clustered data](#observer-clustered-data)
 * [Reusing or Adapting the script](#reusing-or-adapting-the-script)
 * [Acknowledgements](#acknowledgements)
@@ -224,8 +224,19 @@ Summary of detection metrics (F-score, precision and recall values) for presumed
 
 ![Precision vs recall: observer to active nest](./output/Figure_2B_precision_vs_recall_observer_to_active_nest.png "Precision vs recall: observer to active nest")
 
-### Gold standard
-Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard relative to active nests.
+### Gold standard performance
+Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard in orthorectified and non-orthorectified satellite image relative to active nests. The number of nests matched and reference annotations that did not match a nest are included. 
+```
+----------------------------------------------------------------------------------------------
+Image	  Annotator	Precision Recall F1 score GPS nests Nest matched No match Total ref 
+Ortho	  ref 1	        0.92	  0.54   0.68	  152	    82	         7	  89
+	  ref 2	        0.89	  0.70   0.79	  152	    107	         13	  120
+	  Gold standard 0.89	  0.68   0.77	  152	    103	         13	  116
+Non-ortho ref 1	        0.82	  0.55   0.66	  152	    84	         19	  103
+	  ref 2	        0.82	  0.67   0.74	  152	    102	         22	  124
+	  gold standard 0.81	  0.60   0.69	  152	    91	         22	  113
+----------------------------------------------------------------------------------------------
+```
 
 ### Observer clustered data
 Hierarchical clustering of raw observer annotations to create the clustered dataset.
