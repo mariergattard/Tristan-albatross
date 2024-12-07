@@ -53,24 +53,24 @@ Script workflow:
 ## Installation
 To set up the project:
 
-1. Clone the repository:
-
-bash
+### 1. Clone the repository:
+```shell
 git clone https://github.com/your-username/project-name.git
 cd project-name
-Set up a virtual environment (recommended):
+```
 
-2. Set up a virtual environment (recommended):
-bash
+### 2. Set up a virtual environment (recommended):
+```shell
 python -m venv venv
-Install the required dependencies:
+```
 
-3. Install dependencies
-bash
+### 3. Install dependencies
+```shell
 pip install -r requirements.txt
+```
 If requirements.txt is unavailable, manually install dependencies.
 
-Usage
+## Usage
 The script is designed to be run in a Jupyter Notebook environment. Follow these steps:
 
 1. Install JupyterLab:
@@ -158,7 +158,7 @@ Tristan Albatross Satellite Detection Analysis
 
 The analysis generates key outputs such as:
 
-###GLM minimum age###: Generalised linear model (GLM) results for the influence of minimum age on the detectability of nesting albatrosses. Males and Females analysed separately.
+GLM minimum age: Generalised linear model (GLM) results for the influence of minimum age on the detectability of nesting albatrosses. Males and Females analysed separately.
 GLM model comparison: Generalised linear models (GLM) testing the effects of incubating parent (sex, minimum age) and nest characteristics (slope and aspect) on detectability of Tristan albatrosses in a 31 cm resolution satellite image (n=52).  
 Chi-squared test: Determine whether the proportion of nesting males and females detectable in the satellite image were equal.
 Observer performance: Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to gold standard and active nests.
