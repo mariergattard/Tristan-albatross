@@ -218,10 +218,11 @@ Sex (Male:Female)   1.04                  0.61	   -0.15	   2.24	          0.09
 ```
 
 ### Observer performance
-Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to gold standard and active nests.
+Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to (A) gold standard and (B) active nests.
 
-![Precision vs recall: observer to active nest](./output/Figure_2A_precision_vs_recall_observer_to_active_nest.png "Precision vs recall: observer to active nest")
+![Precision vs recall: observer to gold standard](./output/Figure_2A_precision_vs_recall_observer_to_gold_standard.png "Precision vs recall: observer to gold standard")
 
+![Precision vs recall: observer to active nest](./output/Figure_2B_precision_vs_recall_observer_to_active_nest.png "Precision vs recall: observer to active nest")
 
 ### Gold standard
 Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard relative to active nests.
