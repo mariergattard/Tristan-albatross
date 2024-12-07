@@ -163,6 +163,18 @@ The analysis generates key outputs such as:
 ### GLM minimum age
 Generalised linear model (GLM) results for the influence of minimum age on the detectability of nesting albatrosses. Males and Females analysed separately.
 
+**Female nesting albatross**
+```
+Estimate	SE	       z	p	OR      estimate        OR SE	OR z	OR p
+----------------------------------------------------------------------------------------------
+(Intercept)	-1.50          1.21    -1.24	0.22	0.22            0.27	-2.87	0.00
+                [-3.88, 0.88]                           [0.02, 2.41]	
+	
+Minimum age	0.03            0.06	0.42	0.68	0.99            0.07	0.41	0.68
+[-0.10, 0.15]						[-0.91, 0.16]	
+----------------------------------------------------------------------------------------------
+```
+
 ### GLM model comparison
 Generalised linear models (GLM) testing the effects of incubating parent (sex, minimum age) and nest characteristics (slope and aspect) on detectability of Tristan albatrosses in a 31 cm resolution satellite image (n=52). 
 
