@@ -36,16 +36,16 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
 
 ## Introduction
 
-The Tristan Albatross *Diomedea dabbenena* is critically endangered, facing threats such as bycatch and predation. Monitoring this species is challenging due to financial constraints and logistical difficulties. Satellite imagery offers a potential solution for cost-effective population monitoring.
+The Tristan albatross *Diomedea dabbenena* is critically endangered, facing threats such as bycatch and predation. Monitoring this species is challenging due to financial constraints and logistical difficulties. Satellite imagery offers a potential solution for cost-effective population monitoring.
 
-This repository includes a Python script that automates the analysis of satellite imagery data to assess the detectability of Tristan Albatrosses. It also generates the figures and tables required for the study.
+This repository includes a Python script that automates the analysis of satellite imagery data to assess the detectability of Tristan albatrosses. It also generates the figures and tables required for the study.
 
 ## Script Overview and Workflow
 
-The Python script processes the data and performs the necessary analysis to determine the visibility and detectability of Tristan Albatrosses in satellite imagery. It uses the input data from the various folders and generates output plots and tables for further analysis.
+The Python script processes the data and performs the necessary analysis to determine the visibility and detectability of Tristan albatrosses in satellite imagery. It uses the input data from the various folders and generates output plots and tables for further analysis.
 
 Script workflow:
-1. Loads the necessary data (CSV, XLSX, or JPEG files from the Data folder).
+1. Loads the necessary data (csv, xlsx, or jpeg files from the data folder).
 2. Processes the satellite imagery data and field survey nest GPS coordinates.
 3. Conducts an analysis to assess albatross detectability based on various predictors.
 4. Generates output plots (figures) and tables, which are saved in the output folder.
@@ -55,7 +55,7 @@ To set up the project:
 
 #### 1. Clone the repository:
 ```shell
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/mariergattard/tristan-albatross-satellite-detection.git
 cd project-name
 ```
 
