@@ -14,7 +14,7 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
 
 <!-- TOC -->
 * [Introduction](#introduction)
-* [Script Overview and Workflow](#script_overview)
+* [Script Overview and Workflow](#script_overview_and_workflow)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Structure](#structure)
@@ -25,7 +25,7 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
     * [Observer performance](#Observer-performance)
     * [Gold standard](#Gold_standard)
     * [Observer clustered data](#Observer-clustered-data)
-* [Reusing or Adapting the script](#reusing_adapting_script)
+* [Reusing or Adapting the script](#reusing_or_adapting_the_script)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
 * [Funding](#funding)
