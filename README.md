@@ -191,7 +191,7 @@ Minimum age	-0.06            0.07	-0.86	0.39	0.94            0.07	-0.89	0.37
 ### GLM model comparison
 Generalised linear models (GLM) testing the effects of incubating parent (sex, minimum age) and nest characteristics (slope and aspect) on detectability of Tristan albatrosses in a 31 cm resolution satellite image (n=52). 
 
-**Top-ranked models (δAICc ≤ 2)**
+**Top-ranked GLM models (δAICc ≤ 2)**
 ```
 -------------------------------------------------------------------------------------
 Equation	                        AICc    δAICc	R2	LogLik	 Weight
@@ -205,7 +205,7 @@ Nest visibility ~ Slope + Sex	        69.95	1.97	0.05	-31.97	 0.37
 -------------------------------------------------------------------------------------
 ```
 
-**Conditionally averaged results from top-ranked models**
+**Conditionally averaged results from top-ranked GLM models (δAICc ≤ 2)**
 ```
 ----------------------------------------------------------------------------------------------
 Predictor	   Model-averaged coef	  SE	   95% CI (Lower)  95% CI (Upper)  p-value
