@@ -14,7 +14,7 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
 
 <!-- TOC -->
 * [Introduction](#introduction)
-* [Script Overview and Workflow](#script_overview_workflow)
+* [Script Overview and Workflow](#script_overview_and_workflow)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Structure](#structure)
@@ -91,6 +91,7 @@ Run the cells sequentially to execute the analysis.
 
 The project is designed as follows: 
 
+```
 Tristan Albatross Satellite Detection Analysis
 │
 ├── Data
@@ -143,8 +144,9 @@ Tristan Albatross Satellite Detection Analysis
 │
 └── README
 	Description of github files, acknowledgements, licencing of script and tiles, funding source. 
+```
 
-### Results
+## Results
 
 The analysis generates key outputs such as:
 
