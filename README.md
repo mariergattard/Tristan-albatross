@@ -103,11 +103,11 @@ Tristan Albatross Satellite Detection Analysis
 │   │       Source: Extracted from Digital Terrain Model (DTM) with <10 m resolution.
 │   │
 │   ├──nest_boundaries
-│   │       Shapefiles of Tristan Albatross nest boundaries on Gough Island provided by RSPB.
+│   │       Shapefiles of Tristan albatross nest boundaries on Gough Island provided by RSPB.
 │   │
 │   ├──nest_GPS_coordinates
-│   │       GPS coordinates of Tristan Albatross nests in cloud-free regions of the satellite image
-│   │       Source: Data provided by RSPB for the 2017/18 breeding season. Accurate to 10 m. 
+│   │       GPS coordinates of Tristan albatross nests in cloud-free regions of the satellite image.
+│   │       Source: RSPB for the 2017/18 breeding season. Hand-held GPS accurate to 10 m. 
 │   │ 
 │   ├──nesting_bird_information:
 │   │     ├──Tristan_albatross_age_sex_data.csv: Minimum age and sex of each nesting bird.
@@ -123,8 +123,8 @@ Tristan Albatross Satellite Detection Analysis
 │   │       CSV files & point shapefiles of reference 1 (MRGA) and 2 (PC) annotations.
 │   │ 
 │   ├──tile_coordinates_georeference
-│   │      CSV file with latitude and longitude of the top-left corner of each tile raster
-│   │      Used to convert tile x, y pixel coordinates into geographical coordinates
+│   │      CSV file with latitude and longitude of the top-left corner of each tile raster.
+│   │      Used to convert tile x, y pixel coordinates into geographical coordinates.
 │   │ 
 │   ├──tile_fishnet_grid
 │   │       A 100m x 100m fishnet grid and FID to create tiles in ArcGIS Pro.
@@ -140,11 +140,11 @@ Tristan Albatross Satellite Detection Analysis
 │   └──tile_images
 │       This contains two subfolders: 
 │           1. tiles_with_raw_observer_labels_not_georeferenced: 
-│            Tile jpeg images with raw non-georeferenced observer annotations 
+│            Tile jpeg images with raw non-georeferenced observer annotations. 
 │            Symbols: coloured circles represent each unique observer ID. 
 │           2. tile_with_observer_nest_labels_georeferenced: 
-│            Tile jpeg images containing georeferenced observer labels and nest GPS coordinates
-│            Symbols: square = observers; white circle = nest GPS coordinates
+│            Tile jpeg images containing georeferenced observer labels and nest GPS coordinates.
+│            Symbols: square = observers; white circle = nest GPS coordinates.
 │
 ├── python_script
 │       Processes annotations and assesses detectability of Tristan albatrosses in satellite imagery. 
@@ -158,7 +158,7 @@ Tristan Albatross Satellite Detection Analysis
 
 The analysis generates key outputs such as:
 
-GLM minimum age: Generalised linear model (GLM) results for the influence of minimum age on the detectability of nesting albatrosses. Males and Females analysed separately.
+###GLM minimum age###: Generalised linear model (GLM) results for the influence of minimum age on the detectability of nesting albatrosses. Males and Females analysed separately.
 GLM model comparison: Generalised linear models (GLM) testing the effects of incubating parent (sex, minimum age) and nest characteristics (slope and aspect) on detectability of Tristan albatrosses in a 31 cm resolution satellite image (n=52).  
 Chi-squared test: Determine whether the proportion of nesting males and females detectable in the satellite image were equal.
 Observer performance: Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to gold standard and active nests.
