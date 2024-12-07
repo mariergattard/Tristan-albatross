@@ -95,52 +95,60 @@ The project is designed as follows:
 Tristan Albatross Satellite Detection Analysis
 │
 ├── Data
-│   │  This data provides the input for the python script, comprising of satellite image data, nest coordinates, and volunteer-labelled data. 
-│   │  All data for this project is organised into subfolders within the data folder.
+│   │  Input files for the python script. 
+│   │  Contains satellite image data, nest GPS coordinates, reference and observer annotations. 
 │   │
 │   ├──Gough_island_landscape_features
-│   │       Shapefiles for Gough Island’s landscape features (coastline, ocean, contours, and mountain peaks), extracted from a Digital Terrain Model provided by RSPB with <10 m resolution.
+│   │       Shapefiles for Gough Island coastline, ocean, contours, and mountain peaks. 
+│   │       Source: Extracted from Digital Terrain Model (DTM) with <10 m resolution.
 │   │
 │   ├──nest_boundaries
-│   │       Shapefiles of Tristan Albatross nest boundaries on Gough Island, including Gonydale and the Hummocks, provided by RSPB.
+│   │       Shapefiles of Tristan Albatross nest boundaries on Gough Island provided by RSPB.
 │   │
 │   ├──nest_GPS_coordinates
-│   │       GPS coordinates of Tristan Albatross nests in cloud-free regions of the satellite image, provided by RSPB for the 2017/18 breeding season. Accurate to 10 m. 
+│   │       GPS coordinates of Tristan Albatross nests in cloud-free regions of the satellite image
+│   │       Source: Data provided by RSPB for the 2017/18 breeding season. Accurate to 10 m. 
 │   │ 
 │   ├──nesting_bird_information:
-│   │     ├──['Tristan_albatross_age_sex_data.csv'](./data/nesting_bird_information/Tristan_albatross_age_sex_data.csv)
-│   │     │   Minimum age and sex of each nesting bird.
-│   │     ├──['Tristan_albatross_nest_colony_information.csv'](./data/nesting_bird_information/Tristan_albatross_nest_colony_information.csv)
-│   │     │   List of nesting birds detected in the 31 cm orthorectified satellite image (152 nests). This    includes the nest ID and colony the nest is from. 
-│   │     └──['Tristan_albatross_nest_location_data.csv']:(./data/nesting_bird_information/Tristan_albatross_nest_colony_information.csv): 
-│   │         Slope (degrees) and aspect data of 152 nests extracted from each nest GPS coordinate in ArcGIS Pro using the Digital Elevation Model provided by RSPB.
+│   │     ├──Tristan_albatross_age_sex_data.csv: Minimum age and sex of each nesting bird.
+│   │     ├──Tristan_albatross_nest_colony_information.csv: 
+│   │         Nest ID of active nests in 31 cm orthorectified satellite image from RSPB.
+│   │     └──Tristan_albatross_nest_location_data.csv
+│   │         Slope (degrees) and aspect data of nests extracted from DTM in ArcGIS Pro.
 │   │
 │   ├──observer_annotations
-│   │        Contains CSV files with raw output from 9 observers using VGG Image Annotator (VIA), which is used for assessing interobserver reliability.
+│   │        CSV files with raw annotations from 9 observers using VGG Image Annotator (VIA).
 │   │
 │   ├──reference_annotations
-│   │       Contains CSV files and point shapefiles of reference 1 (Initials: MRGA) and reference 2 (Initials: PC) annotations of presumed Tristan albatrosses in all cloud-free regions of the satellite image.
+│   │       CSV files & point shapefiles of reference 1 (MRGA) and 2 (PC) annotations.
 │   │ 
 │   ├──tile_coordinates_georeference
-│   │       A CSV file listing the latitude and longitude of the top-left corner of each image chip raster, used for converting x, y pixel coordinates into geographical coordinates.
+│   │      CSV file with latitude and longitude of the top-left corner of each tile raster
+│   │      Used to convert tile x, y pixel coordinates into geographical coordinates
 │   │ 
 │   ├──tile_fishnet_grid
-│   │       A 100m x 100m fishnet grid and FID created in ArcGIS Pro for extracting a subset of image chips to assess interobserver reliability.
+│   │       A 100m x 100m fishnet grid and FID to create tiles in ArcGIS Pro.
 │   │ 
 │   └──tiles
-│          Non-georeferenced satellite image tiles (n=30), jpeg format. Each measuring 100 x 100 m. Randomly selected from Gonydale to complete observer annotations from 9 volunteers of varied experience. 
-│          The number at the end of the file name is the FID taken from the tile fishnet grid. 
+│          Non-georeferenced satellite image tiles (n=30) in jpeg format. Each measuring 100m x 100m. 
+│          30 tiles randomly selected to complete observer annotations.
+│          The number at the end of the filename is the FID from tile_fishnet_grid. 
 │       
 ├── Output
 │   │  Collection of files exported using the python script. 
 │   │  
 │   └──tile_images
 │       This contains two subfolders: 
-│           1. tiles_with_raw_observer_labels_not_georeferenced: Tile jpeg images with raw non-georeferenced observer labels (circles, with colour representing unique observer ID). 
-│           2. tile_with_observer_nest_labels_georeferenced: Tile jpeg images containing georeferenced observer labels (squares, with colour representing unique observer ID) and nest GPS coordinates (white circle)
+│           1. tiles_with_raw_observer_labels_not_georeferenced: 
+│            Tile jpeg images with raw non-georeferenced observer annotations 
+│            Symbols: coloured circles represent each unique observer ID. 
+│           2. tile_with_observer_nest_labels_georeferenced: 
+│            Tile jpeg images containing georeferenced observer labels and nest GPS coordinates
+│            Symbols: square = observers; white circle = nest GPS coordinates
 │
 ├── python_script
-│       Processes the data and performs analysis to determine detectability of Tristan Albatrosses in satellite imagery. It uses the data from the different folders and generates all output files. 
+│       Processes annotations and assesses detectability of Tristan albatrosses in satellite imagery. 
+│       Input data from 'data' folder and generates all output files. 
 │
 └── README
 	Description of github files, acknowledgements, licencing of script and tiles, funding source. 
