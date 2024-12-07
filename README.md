@@ -73,15 +73,17 @@ If requirements.txt is unavailable, manually install dependencies.
 ## Usage
 The script is designed to be run in a Jupyter Notebook environment. Follow these steps:
 
-1. Install JupyterLab:
-bash
+### 1. Install JupyterLab:
+```shell
 pip install jupyterlab
+```
 
-2. Launch Jupyter Notebook:
-bash
+### 2. Launch Jupyter Notebook:
+```shell
 jupyter notebook
+```
 
-3. Run the analysis:
+### 3. Run the analysis:
 
 Open Tristan_albatross_satellite_image_detection.ipynb in the python_script folder.
 Ensure all input data is correctly placed in the data folder.
