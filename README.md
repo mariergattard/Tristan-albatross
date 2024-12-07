@@ -19,12 +19,12 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
 * [Usage](#usage)
 * [Structure](#structure)
 * [Results](#results)
-    * [GLM minimum age](#GLM-minimum-age)
-    * [GLM model comparison](#GLM-model-comparison)
-    * [Chi-squared test](#Chi-squared)
-    * [Observer performance](#Observer-performance)
-    * [Gold standard](#Gold_standard)
-    * [Observer clustered data](#Observer-clustered-data)
+    * [GLM minimum age](#glm-minimum-age)
+    * [GLM model comparison](#glm-model-comparison)
+    * [Chi-squared test](#chi-squared-test)
+    * [Observer performance](#pbserver-performance)
+    * [Gold standard](#gold-standard)
+    * [Observer clustered data](#observer-clustered-data)
 * [Reusing or Adapting the script](#reusing-or-adapting-the-script)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
@@ -160,12 +160,20 @@ Tristan Albatross Satellite Detection Analysis
 
 The analysis generates key outputs such as:
 
-**GLM minimum age**: Generalised linear model (GLM) results for the influence of minimum age on the detectability of nesting albatrosses. Males and Females analysed separately.<br>
-**GLM model comparison**: Generalised linear models (GLM) testing the effects of incubating parent (sex, minimum age) and nest characteristics (slope and aspect) on detectability of Tristan albatrosses in a 31 cm resolution satellite image (n=52).<br> 
-**Chi-squared test**: Determine whether the proportion of nesting males and females detectable in the satellite image were equal.<br>
-**Observer performance**: Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to gold standard and active nests.<br>
-**Gold standard**: Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard relative to active nests.<br>
-**Observer clustered data**:Hierarchical clustering of raw observer annotations to create the clustered dataset.<br>
+### GLM minimum age
+Generalised linear model (GLM) results for the influence of minimum age on the detectability of nesting albatrosses. Males and Females analysed separately.
+
+### GLM model comparison
+Generalised linear models (GLM) testing the effects of incubating parent (sex, minimum age) and nest characteristics (slope and aspect) on detectability of Tristan albatrosses in a 31 cm resolution satellite image (n=52). 
+
+###Observer performance
+Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to gold standard and active nests.
+
+### Gold standard
+Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard relative to active nests.
+
+### Observer clustered data
+Hierarchical clustering of raw observer annotations to create the clustered dataset.
 
 ## Reusing or Adapting the Script
 
