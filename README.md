@@ -1,4 +1,4 @@
-# Tristan Albatross Satellite Detection Analysis
+# Tristan Albatross Satellite Image Detection Analysis
 
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=yellow)
 ![GitHub](https://img.shields.io/github/license/ninagw3/Walrus_from_space?color=green)
