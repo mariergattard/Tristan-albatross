@@ -246,7 +246,7 @@ Example of a tile with nests shown in white circles and observer annotations sho
 
 
 ![Clustered dataset](./output/tile_images/tiles_with_clustered_observer_nest_labels_georeferenced/11_Gough_Island_100m2_134.jpg "Clustered dataset")
-Example of a tile with spatially clustered data, with the number of observers in agreement stated inside each square. 
+Example of a tile with spatially clustered data, with the number of observers in agreement stated inside each square. Satellite imagery © 2024 Maxar Technologies. 
 
 
 ## Reusing or Adapting the Script
