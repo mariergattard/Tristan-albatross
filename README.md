@@ -55,7 +55,7 @@ To set up the project:
 
 #### 1. Clone the repository:
 ```shell
-git clone https://github.com/mariergattard/tristan-albatross-satellite-detection.git
+git clone https://github.com/mariergattard/tristan-albatross.git
 cd project-name
 ```
 
