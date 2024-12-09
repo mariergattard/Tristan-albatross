@@ -241,7 +241,8 @@ Non-ortho ref 1	        0.82	  0.55   0.66	  152	    84	         19	  103
 ### Observer clustered data
 Hierarchical clustering of raw observer annotations to create the clustered dataset.
 
-![Clustered dataset](./output/tile_images/tile_with_observer_nest_labels_georeferenced/1_Gough_Island_100m2_259.jpg "Clustered dataset")
+![Clustered dataset](./output/tile_images/tile_with_observer_nest_labels_georeferenced/11_Gough_Island_100m2_134.jpg "Clustered dataset")
+Image (above) shows an example of a tile with nests shown in white circles and observer annotations shown in coloured squares. 
 
 ## Reusing or Adapting the Script
 
