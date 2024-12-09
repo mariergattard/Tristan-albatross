@@ -245,7 +245,7 @@ Hierarchical clustering of raw observer annotations to create the clustered data
 
 If you reuse or adapt this script, please cite the associated manuscript:
 
-Marie R. G. Attard, Richard A. Phillips, Steffen Oppel, Ellen Bowler and Peter T. Fretwell (In Review) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. Endangered Species Journal.
+Marie R. G. Attard, Richard A. Phillips, Steffen Oppel, Ellen Bowler and Peter T. Fretwell (In Review) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. [Endangered Species Research] (https://www.int-res.com/journals/esr/esr-home/).
 
 ## Acknowledgements
 
