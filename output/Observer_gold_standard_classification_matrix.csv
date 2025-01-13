@@ -1,101 +1,101 @@
-actual_observer,predicted_observer,TP,FP,FN
-obs8,obs8,0,0,0
-obs8,obs3,18,26,8
-obs8,obs1,16,28,1
-obs8,obs5,25,19,21
-obs8,obs2,23,21,6
-obs8,obs9,28,16,29
-obs8,obs6,19,25,1
-obs8,obs4,20,24,9
-obs8,obs7,20,24,9
-obs8,gold standard,23,21,12
-obs3,obs8,18,8,26
-obs3,obs3,0,0,0
-obs3,obs1,15,11,2
-obs3,obs5,19,7,27
-obs3,obs2,18,8,11
-obs3,obs9,22,4,35
-obs3,obs6,18,8,2
-obs3,obs4,18,8,11
-obs3,obs7,19,7,10
-obs3,gold standard,17,9,18
-obs1,obs8,16,1,28
-obs1,obs3,15,2,11
-obs1,obs1,0,0,0
-obs1,obs5,17,0,29
-obs1,obs2,16,1,13
-obs1,obs9,17,0,40
-obs1,obs6,15,2,5
-obs1,obs4,15,2,14
-obs1,obs7,15,2,14
-obs1,gold standard,16,1,19
-obs5,obs8,25,21,19
-obs5,obs3,19,27,7
-obs5,obs1,17,29,0
-obs5,obs5,0,0,0
-obs5,obs2,24,22,5
-obs5,obs9,38,8,19
-obs5,obs6,19,27,1
-obs5,obs4,24,22,5
-obs5,obs7,22,24,7
-obs5,gold standard,22,24,13
-obs2,obs8,23,6,21
-obs2,obs3,18,11,8
-obs2,obs1,16,13,1
-obs2,obs5,24,5,22
-obs2,obs2,0,0,0
-obs2,obs9,25,4,32
-obs2,obs6,19,10,1
-obs2,obs4,21,8,8
-obs2,obs7,21,8,8
-obs2,gold standard,22,7,13
-obs9,obs8,28,29,16
-obs9,obs3,23,34,3
-obs9,obs1,17,40,0
-obs9,obs5,39,18,7
-obs9,obs2,25,32,4
-obs9,obs9,0,0,0
-obs9,obs6,19,38,1
-obs9,obs4,25,32,4
-obs9,obs7,26,31,3
-obs9,gold standard,24,33,11
-obs6,obs8,19,1,25
-obs6,obs3,18,2,8
-obs6,obs1,15,5,2
-obs6,obs5,19,1,27
-obs6,obs2,19,1,10
-obs6,obs9,19,1,38
-obs6,obs6,0,0,0
-obs6,obs4,18,2,11
-obs6,obs7,18,2,11
-obs6,gold standard,17,3,18
-obs4,obs8,20,9,24
-obs4,obs3,18,11,8
-obs4,obs1,15,14,2
-obs4,obs5,24,5,22
-obs4,obs2,21,8,8
-obs4,obs9,25,4,32
-obs4,obs6,18,11,2
-obs4,obs4,0,0,0
-obs4,obs7,21,8,8
-obs4,gold standard,18,11,17
-obs7,obs8,20,9,24
-obs7,obs3,19,10,7
-obs7,obs1,15,14,2
-obs7,obs5,22,7,24
-obs7,obs2,21,8,8
-obs7,obs9,26,3,31
-obs7,obs6,18,11,2
-obs7,obs4,21,8,8
-obs7,obs7,0,0,0
-obs7,gold standard,19,10,16
-gold standard,obs8,23,12,21
-gold standard,obs3,17,18,9
-gold standard,obs1,16,19,1
-gold standard,obs5,22,13,24
-gold standard,obs2,22,13,7
-gold standard,obs9,24,11,33
-gold standard,obs6,17,18,3
-gold standard,obs4,18,17,11
-gold standard,obs7,19,16,10
-gold standard,gold standard,0,0,0
+actual_observer,predicted_observer,TP,FP,FN,Recall,Precision,F1_Score
+obs8,obs8,0,0,0,0.0,0.0,0.0
+obs8,obs3,18,8,26,0.41,0.69,0.51
+obs8,obs1,16,1,28,0.36,0.94,0.52
+obs8,obs5,25,21,19,0.57,0.54,0.56
+obs8,obs2,23,6,21,0.52,0.79,0.63
+obs8,obs9,28,29,16,0.64,0.49,0.55
+obs8,obs6,19,1,25,0.43,0.95,0.59
+obs8,obs4,20,9,24,0.45,0.69,0.55
+obs8,obs7,20,9,24,0.45,0.69,0.55
+obs8,gold standard,23,12,21,0.52,0.66,0.58
+obs3,obs8,18,26,8,0.69,0.41,0.51
+obs3,obs3,0,0,0,0.0,0.0,0.0
+obs3,obs1,15,2,11,0.58,0.88,0.7
+obs3,obs5,19,27,7,0.73,0.41,0.53
+obs3,obs2,18,11,8,0.69,0.62,0.65
+obs3,obs9,23,34,3,0.88,0.4,0.55
+obs3,obs6,18,2,8,0.69,0.9,0.78
+obs3,obs4,18,11,8,0.69,0.62,0.65
+obs3,obs7,19,10,7,0.73,0.66,0.69
+obs3,gold standard,17,18,9,0.65,0.49,0.56
+obs1,obs8,16,28,1,0.94,0.36,0.52
+obs1,obs3,15,11,2,0.88,0.58,0.7
+obs1,obs1,0,0,0,0.0,0.0,0.0
+obs1,obs5,17,29,0,1.0,0.37,0.54
+obs1,obs2,16,13,1,0.94,0.55,0.7
+obs1,obs9,17,40,0,1.0,0.3,0.46
+obs1,obs6,15,5,2,0.88,0.75,0.81
+obs1,obs4,15,14,2,0.88,0.52,0.65
+obs1,obs7,15,14,2,0.88,0.52,0.65
+obs1,gold standard,16,19,1,0.94,0.46,0.62
+obs5,obs8,25,19,21,0.54,0.57,0.56
+obs5,obs3,19,7,27,0.41,0.73,0.53
+obs5,obs1,17,0,29,0.37,1.0,0.54
+obs5,obs5,0,0,0,0.0,0.0,0.0
+obs5,obs2,24,5,22,0.52,0.83,0.64
+obs5,obs9,39,18,7,0.85,0.68,0.76
+obs5,obs6,19,1,27,0.41,0.95,0.58
+obs5,obs4,24,5,22,0.52,0.83,0.64
+obs5,obs7,22,7,24,0.48,0.76,0.59
+obs5,gold standard,22,13,24,0.48,0.63,0.54
+obs2,obs8,23,21,6,0.79,0.52,0.63
+obs2,obs3,18,8,11,0.62,0.69,0.65
+obs2,obs1,16,1,13,0.55,0.94,0.7
+obs2,obs5,24,22,5,0.83,0.52,0.64
+obs2,obs2,0,0,0,0.0,0.0,0.0
+obs2,obs9,25,32,4,0.86,0.44,0.58
+obs2,obs6,19,1,10,0.66,0.95,0.78
+obs2,obs4,21,8,8,0.72,0.72,0.72
+obs2,obs7,21,8,8,0.72,0.72,0.72
+obs2,gold standard,22,13,7,0.76,0.63,0.69
+obs9,obs8,28,16,29,0.49,0.64,0.55
+obs9,obs3,22,4,35,0.39,0.85,0.53
+obs9,obs1,17,0,40,0.3,1.0,0.46
+obs9,obs5,38,8,19,0.67,0.83,0.74
+obs9,obs2,25,4,32,0.44,0.86,0.58
+obs9,obs9,0,0,0,0.0,0.0,0.0
+obs9,obs6,19,1,38,0.33,0.95,0.49
+obs9,obs4,25,4,32,0.44,0.86,0.58
+obs9,obs7,26,3,31,0.46,0.9,0.6
+obs9,gold standard,24,11,33,0.42,0.69,0.52
+obs6,obs8,19,25,1,0.95,0.43,0.59
+obs6,obs3,18,8,2,0.9,0.69,0.78
+obs6,obs1,15,2,5,0.75,0.88,0.81
+obs6,obs5,19,27,1,0.95,0.41,0.58
+obs6,obs2,19,10,1,0.95,0.66,0.78
+obs6,obs9,19,38,1,0.95,0.33,0.49
+obs6,obs6,0,0,0,0.0,0.0,0.0
+obs6,obs4,18,11,2,0.9,0.62,0.73
+obs6,obs7,18,11,2,0.9,0.62,0.73
+obs6,gold standard,17,18,3,0.85,0.49,0.62
+obs4,obs8,20,24,9,0.69,0.45,0.55
+obs4,obs3,18,8,11,0.62,0.69,0.65
+obs4,obs1,15,2,14,0.52,0.88,0.65
+obs4,obs5,24,22,5,0.83,0.52,0.64
+obs4,obs2,21,8,8,0.72,0.72,0.72
+obs4,obs9,25,32,4,0.86,0.44,0.58
+obs4,obs6,18,2,11,0.62,0.9,0.73
+obs4,obs4,0,0,0,0.0,0.0,0.0
+obs4,obs7,21,8,8,0.72,0.72,0.72
+obs4,gold standard,18,17,11,0.62,0.51,0.56
+obs7,obs8,20,24,9,0.69,0.45,0.55
+obs7,obs3,19,7,10,0.66,0.73,0.69
+obs7,obs1,15,2,14,0.52,0.88,0.65
+obs7,obs5,22,24,7,0.76,0.48,0.59
+obs7,obs2,21,8,8,0.72,0.72,0.72
+obs7,obs9,26,31,3,0.9,0.46,0.6
+obs7,obs6,18,2,11,0.62,0.9,0.73
+obs7,obs4,21,8,8,0.72,0.72,0.72
+obs7,obs7,0,0,0,0.0,0.0,0.0
+obs7,gold standard,19,16,10,0.66,0.54,0.59
+gold standard,obs8,23,21,12,0.66,0.52,0.58
+gold standard,obs3,17,9,18,0.49,0.65,0.56
+gold standard,obs1,16,1,19,0.46,0.94,0.62
+gold standard,obs5,22,24,13,0.63,0.48,0.54
+gold standard,obs2,22,7,13,0.63,0.76,0.69
+gold standard,obs9,24,33,11,0.69,0.42,0.52
+gold standard,obs6,17,3,18,0.49,0.85,0.62
+gold standard,obs4,18,11,17,0.51,0.62,0.56
+gold standard,obs7,19,10,16,0.54,0.66,0.59
+gold standard,gold standard,0,0,0,0.0,0.0,0.0
