@@ -1,0 +1,102 @@
+observer,observer_ID,latitude,longitude,image_correction,tile_ID,comments,filename,region_count,matched_nest_ID,nearby_nest,distance_to_nest_m
+gold standard,gold standard,-40.3387108499999,-9.922585,orthorectified,199, ,19_Gough_Island_100m2_199.jpg,1,13370,True,4.09
+gold standard,gold standard,-40.33850893,-9.92086424,orthorectified,200, ,5_Gough_Island_100m2_200.jpg,2,13346,True,1.57
+gold standard,gold standard,-40.3384153399999,-9.9207388,orthorectified,200, ,5_Gough_Island_100m2_200.jpg,2,13279,True,1.55
+gold standard,gold standard,-40.3358800099999,-9.91895436,orthorectified,257, ,28_Gough_Island_100m2_257.jpg,2,13237,True,3.37
+gold standard,gold standard,-40.3360780599999,-9.91874404,orthorectified,257, ,28_Gough_Island_100m2_257.jpg,2,13263,True,1.79
+gold standard,gold standard,-40.3364782,-9.91899860999999,orthorectified,239, ,25_Gough_Island_100m2_239.jpg,1,13246,True,0.67
+gold standard,gold standard,-40.33884391,-9.91774283,orthorectified,203, ,21_Gough_Island_100m2_203.jpg,1,13268,True,7.13
+gold standard,gold standard,-40.33790401,-9.91722483999999,orthorectified,222, ,23_Gough_Island_100m2_222.jpg,3,13331,True,6.11
+gold standard,gold standard,-40.33762174,-9.91723494,orthorectified,222, ,23_Gough_Island_100m2_222.jpg,3,13374,True,4.62
+gold standard,gold standard,-40.3367916999999,-9.91698332,orthorectified,240, ,26_Gough_Island_100m2_240.jpg,2,13264,True,2.71
+gold standard,gold standard,-40.33680572,-9.9173007,orthorectified,240, ,26_Gough_Island_100m2_240.jpg,2,13306,True,1.9
+gold standard,gold standard,-40.3359150599999,-9.91597012,orthorectified,259, ,1_Gough_Island_100m2_259.jpg,2,13289,True,4.45
+gold standard,gold standard,-40.33817907,-9.9145451,orthorectified,224, ,30_Gough_Island_100m2_224.jpg,1,13251,True,1.86
+gold standard,gold standard,-40.33864649,-9.91570731999999,orthorectified,204, ,22_Gough_Island_100m2_204.jpg,2,13338,True,2.93
+gold standard,gold standard,-40.33903971,-9.91613128999999,orthorectified,204, ,22_Gough_Island_100m2_204.jpg,2,13286,True,3.6
+gold standard,gold standard,-40.3401197399999,-9.9124587,orthorectified,171, ,18_Gough_Island_100m2_171.jpg,1,13295,True,4.97
+gold standard,gold standard,-40.3402692,-9.9149259,orthorectified,169, ,17_Gough_Island_100m2_169.jpg,2,13285,True,1.79
+gold standard,gold standard,-40.3406129999999,-9.91658067999999,orthorectified,168, ,16_Gough_Island_100m2_168.jpg,1,13322,True,4.09
+gold standard,gold standard,-40.34109841,-9.91633204,orthorectified,151, ,12_Gough_Island_100m2_151.jpg,1,,False,
+gold standard,gold standard,-40.34064475,-9.91552658,orthorectified,169, ,17_Gough_Island_100m2_169.jpg,2,13358,True,3.14
+gold standard,gold standard,-40.34189767,-9.91578164,orthorectified,134, ,11_Gough_Island_100m2_134.jpg,2,13323,True,4.87
+gold standard,gold standard,-40.3460342799999,-9.91184827,orthorectified,83, ,7_Gough_Island_100m2_83.jpg,1,13234,True,4.46
+gold standard,gold standard,-40.3477809999999,-9.90989171999999,orthorectified,57, ,3_Gough_Island_100m2_57.jpg,1,13230,True,4.53
+gold standard,gold standard,-40.34551012,-9.91577796,orthorectified,79, ,6_Gough_Island_100m2_79.jpg,2,13318,True,2.07
+gold standard,gold standard,-40.3456657999999,-9.91598568,orthorectified,79, ,6_Gough_Island_100m2_79.jpg,2,13244,True,2.67
+gold standard,gold standard,-40.34405945,-9.91635842,orthorectified,106, ,8_Gough_Island_100m2_106.jpg,2,13371,True,3.03
+gold standard,gold standard,-40.34401081,-9.91611851,orthorectified,106, ,8_Gough_Island_100m2_106.jpg,2,13344,True,2.89
+gold standard,gold standard,-40.34247787,-9.91650892,orthorectified,134, ,11_Gough_Island_100m2_134.jpg,2,13290,True,3.95
+gold standard,gold standard,-40.3425406499999,-9.9184161,orthorectified,132, ,10_Gough_Island_100m2_132.jpg,1,13283,True,4.26
+gold standard,gold standard,-40.3406013,-9.92002684,orthorectified,165, ,14_Gough_Island_100m2_165.jpg,1,13350,True,1.67
+gold standard,gold standard,-40.3401190399999,-9.92063145,orthorectified,164, ,13_Gough_Island_100m2_164.jpg,1,13269,True,0.95
+gold standard,gold standard,-40.3480982399999,-9.91008195999999,orthorectified,56, ,2_Gough_Island_100m2_56.jpg,2,,False,
+gold standard,gold standard,-40.34808273,-9.91069969,orthorectified,56, ,2_Gough_Island_100m2_56.jpg,2,,False,
+gold standard,gold standard,-40.33760584,-9.91756308,orthorectified,222, ,23_Gough_Island_100m2_222.jpg,3,,False,
+gold standard,gold standard,-40.3360942899999,-9.91595732999999,orthorectified,259, ,1_Gough_Island_100m2_259.jpg,2,13278,True,9.43
+MRGA,ref 1,-40.3480961799999,-9.91007971,orthorectified,56, ,2_Gough_Island_100m2_56.jpg,2,,False,
+MRGA,ref 1,-40.34808497,-9.91069702,orthorectified,56, ,2_Gough_Island_100m2_56.jpg,2,,False,
+MRGA,ref 1,-40.3358816699999,-9.91895672,orthorectified,257, ,28_Gough_Island_100m2_257.jpg,2,13237,True,3.59
+MRGA,ref 1,-40.34011996,-9.92063255,orthorectified,164, ,13_Gough_Island_100m2_164.jpg,1,13269,True,1.07
+MRGA,ref 1,-40.33841643,-9.92073957,orthorectified,200, ,5_Gough_Island_100m2_200.jpg,2,13279,True,1.45
+MRGA,ref 1,-40.34254303,-9.91841679,orthorectified,132, ,10_Gough_Island_100m2_132.jpg,1,13283,True,4.23
+MRGA,ref 1,-40.34027098,-9.91492684,orthorectified,169, ,17_Gough_Island_100m2_169.jpg,2,13285,True,1.97
+MRGA,ref 1,-40.3424781399999,-9.91651075,orthorectified,134, ,11_Gough_Island_100m2_134.jpg,2,13290,True,4.1
+MRGA,ref 1,-40.34012046,-9.91246044,orthorectified,171, ,18_Gough_Island_100m2_171.jpg,1,13295,True,5.09
+MRGA,ref 1,-40.3455076899999,-9.91577846999999,orthorectified,79, ,6_Gough_Island_100m2_79.jpg,2,13318,True,2.32
+MRGA,ref 1,-40.34190203,-9.91577881,orthorectified,134, ,11_Gough_Island_100m2_134.jpg,2,13323,True,5.08
+MRGA,ref 1,-40.3440622,-9.91635727,orthorectified,106, ,8_Gough_Island_100m2_106.jpg,2,13371,True,2.99
+MRGA,ref 1,-40.3367916999999,-9.91698332,orthorectified,240, ,26_Gough_Island_100m2_240.jpg,2,13264,True,2.71
+MRGA,ref 1,-40.3406143899999,-9.91658097,orthorectified,168, ,16_Gough_Island_100m2_168.jpg,1,13322,True,4.07
+MRGA,ref 1,-40.34566771,-9.91598497,orthorectified,79, ,6_Gough_Island_100m2_79.jpg,2,13244,True,2.83
+MRGA,ref 1,-40.33819819,-9.91453905999999,orthorectified,224, ,30_Gough_Island_100m2_224.jpg,1,13251,True,1.95
+MRGA,ref 1,-40.3360814899999,-9.91874364,orthorectified,257, ,28_Gough_Island_100m2_257.jpg,2,13263,True,1.82
+MRGA,ref 1,-40.33790535,-9.91722378,orthorectified,222, ,23_Gough_Island_100m2_222.jpg,1,13331,True,5.95
+MRGA,ref 1,-40.34401003,-9.91611805,orthorectified,106, ,8_Gough_Island_100m2_106.jpg,2,13344,True,2.79
+MRGA,ref 1,-40.3385105099999,-9.92086478,orthorectified,200, ,5_Gough_Island_100m2_200.jpg,2,13346,True,1.56
+MRGA,ref 1,-40.34060215,-9.92002811,orthorectified,165, ,14_Gough_Island_100m2_165.jpg,1,13350,True,1.69
+MRGA,ref 1,-40.34064715,-9.91552907,orthorectified,169, ,17_Gough_Island_100m2_169.jpg,2,13358,True,3.48
+MRGA,ref 1,-40.33871253,-9.92258723,orthorectified,199, ,19_Gough_Island_100m2_199.jpg,1,13370,True,4.22
+MRGA,ref 1,-40.34777837,-9.90989136,orthorectified,57, ,3_Gough_Island_100m2_57.jpg,1,13230,True,4.74
+MRGA,ref 1,-40.34603312,-9.91184677999999,orthorectified,83, ,7_Gough_Island_100m2_83.jpg,1,13234,True,4.46
+MRGA,ref 1,-40.33904231,-9.91613252,orthorectified,204, ,22_Gough_Island_100m2_204.jpg,2,13286,True,3.53
+MRGA,ref 1,-40.33680572,-9.9173007,orthorectified,240, ,26_Gough_Island_100m2_240.jpg,2,13306,True,1.9
+MRGA,ref 1,-40.33864863,-9.91570965999999,orthorectified,204, ,22_Gough_Island_100m2_204.jpg,2,13338,True,2.84
+PC,ref 2,-40.3387096299999,-9.92258428,orthorectified,199,,19_Gough_Island_100m2_199.jpg,1,13370,True,4.08
+PC,ref 2,-40.33850893,-9.92086424,orthorectified,200,,5_Gough_Island_100m2_200.jpg,2,13346,True,1.57
+PC,ref 2,-40.3384134,-9.92073678999999,orthorectified,200,,5_Gough_Island_100m2_200.jpg,2,13279,True,1.74
+PC,ref 2,-40.3358800099999,-9.91895436,orthorectified,257,,28_Gough_Island_100m2_257.jpg,2,13237,True,3.37
+PC,ref 2,-40.3360780599999,-9.91874404,orthorectified,257,,28_Gough_Island_100m2_257.jpg,2,13263,True,1.79
+PC,ref 2,-40.3364782,-9.91899860999999,orthorectified,239,,25_Gough_Island_100m2_239.jpg,2,13246,True,0.67
+PC,ref 2,-40.33648205,-9.91887406,orthorectified,239,,25_Gough_Island_100m2_239.jpg,2,13317,True,3.46
+PC,ref 2,-40.33884391,-9.91774283,orthorectified,203,,21_Gough_Island_100m2_203.jpg,1,13268,True,7.13
+PC,ref 2,-40.33790401,-9.91722483999999,orthorectified,222,,23_Gough_Island_100m2_222.jpg,3,13331,True,6.11
+PC,ref 2,-40.33762174,-9.91723494,orthorectified,222,,23_Gough_Island_100m2_222.jpg,3,13374,True,4.62
+PC,ref 2,-40.3367916999999,-9.91698332,orthorectified,240,,26_Gough_Island_100m2_240.jpg,2,13264,True,2.71
+PC,ref 2,-40.33680572,-9.9173007,orthorectified,240,,26_Gough_Island_100m2_240.jpg,2,13306,True,1.9
+PC,ref 2,-40.3359150599999,-9.91597012,orthorectified,259,,1_Gough_Island_100m2_259.jpg,2,13289,True,4.45
+PC,ref 2,-40.33609276,-9.91595498,orthorectified,259,,1_Gough_Island_100m2_259.jpg,2,13278,True,9.21
+PC,ref 2,-40.33817907,-9.9145451,orthorectified,224,,30_Gough_Island_100m2_224.jpg,1,13251,True,1.86
+PC,ref 2,-40.33864649,-9.91570731999999,orthorectified,204,,22_Gough_Island_100m2_204.jpg,2,13338,True,2.93
+PC,ref 2,-40.33903971,-9.91613128999999,orthorectified,204,,22_Gough_Island_100m2_204.jpg,2,13286,True,3.6
+PC,ref 2,-40.3401197399999,-9.9124587,orthorectified,171,,18_Gough_Island_100m2_171.jpg,1,13295,True,4.97
+PC,ref 2,-40.3402692,-9.9149259,orthorectified,169,,17_Gough_Island_100m2_169.jpg,2,13285,True,1.79
+PC,ref 2,-40.3406129999999,-9.91658067999999,orthorectified,168,,16_Gough_Island_100m2_168.jpg,2,13322,True,4.09
+PC,ref 2,-40.3405562299999,-9.91664471,orthorectified,168,,16_Gough_Island_100m2_168.jpg,2,13348,True,3.44
+PC,ref 2,-40.34109841,-9.91633204,orthorectified,151,,12_Gough_Island_100m2_151.jpg,1,,False,
+PC,ref 2,-40.34064475,-9.91552658,orthorectified,169,,17_Gough_Island_100m2_169.jpg,2,13358,True,3.14
+PC,ref 2,-40.34189767,-9.91578164,orthorectified,134,,11_Gough_Island_100m2_134.jpg,2,13323,True,4.87
+PC,ref 2,-40.3460342799999,-9.91184827,orthorectified,83,,7_Gough_Island_100m2_83.jpg,1,13234,True,4.46
+PC,ref 2,-40.3477809999999,-9.90989171999999,orthorectified,57,,3_Gough_Island_100m2_57.jpg,1,13230,True,4.53
+PC,ref 2,-40.34551012,-9.91577796,orthorectified,79,,6_Gough_Island_100m2_79.jpg,2,13318,True,2.07
+PC,ref 2,-40.3456657999999,-9.91598568,orthorectified,79,,6_Gough_Island_100m2_79.jpg,2,13244,True,2.67
+PC,ref 2,-40.34405945,-9.91635842,orthorectified,106,,8_Gough_Island_100m2_106.jpg,2,13371,True,3.03
+PC,ref 2,-40.34401081,-9.91611851,orthorectified,106,,8_Gough_Island_100m2_106.jpg,2,13344,True,2.89
+PC,ref 2,-40.34247787,-9.91650892,orthorectified,134,,11_Gough_Island_100m2_134.jpg,2,13290,True,3.95
+PC,ref 2,-40.3425406499999,-9.9184161,orthorectified,132,,10_Gough_Island_100m2_132.jpg,1,13283,True,4.26
+PC,ref 2,-40.34084989,-9.91892887,orthorectified,166,,15_Gough_Island_100m2_166.jpg,1,,False,
+PC,ref 2,-40.3406013,-9.92002684,orthorectified,165,,14_Gough_Island_100m2_165.jpg,1,13350,True,1.67
+PC,ref 2,-40.3401190399999,-9.92063145,orthorectified,164,,13_Gough_Island_100m2_164.jpg,1,13269,True,0.95
+PC,ref 2,-40.3480982399999,-9.91008195999999,orthorectified,56,,2_Gough_Island_100m2_56.jpg,2,,False,
+PC,ref 2,-40.34808273,-9.91069969,orthorectified,56,,2_Gough_Island_100m2_56.jpg,2,,False,
+PC,ref 2,-40.33760584,-9.91756308,orthorectified,222,,23_Gough_Island_100m2_222.jpg,3,,False,
