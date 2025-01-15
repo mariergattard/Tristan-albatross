@@ -4,14 +4,14 @@ Dep. Variable:     nest_visible_in_satellite_binary   No. Observations:         
 Model:                                          GLM   Df Residuals:                       24
 Model Family:                              Binomial   Df Model:                            1
 Link Function:                                Logit   Scale:                          1.0000
-Method:                                        IRLS   Log-Likelihood:                -13.916
-Date:                              Mon, 13 Jan 2025   Deviance:                       27.833
-Time:                                      12:51:45   Pearson chi2:                     26.1
-No. Iterations:                                   4   Pseudo R-squ. (CS):           0.009867
+Method:                                        IRLS   Log-Likelihood:                -15.722
+Date:                              Wed, 15 Jan 2025   Deviance:                       31.445
+Time:                                      14:35:52   Pearson chi2:                     25.8
+No. Iterations:                                   4   Pseudo R-squ. (CS):            0.02475
 Covariance Type:                          nonrobust                                         
 ===============================================================================
                   coef    std err          z      P>|z|      [0.025      0.975]
 -------------------------------------------------------------------------------
-const          -1.7668      1.231     -1.436      0.151      -4.179       0.645
-minimum_age     0.0331      0.065      0.507      0.612      -0.095       0.161
+const           0.0101      1.075      0.009      0.993      -2.098       2.118
+minimum_age     0.0499      0.063      0.788      0.430      -0.074       0.174
 ===============================================================================
