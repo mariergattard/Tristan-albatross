@@ -208,6 +208,9 @@ Nest detectability ~ Slope + Sex	69.95	1.97	0.05	-31.97	 0.37      (-3.56, 1.60)
 ### Observer performance
 Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by nine observers relative to (A) gold standard and (B) active nests.
 
+![Precision vs recall: observer to gold standard](./output/observer_performance_matrics/Figure_2A_precision_vs_recall_observer_to_gold_standard.png "Precision vs recall: observer to gold standard")
+
+
 ![Precision vs recall: observer to active nest](./output/observer_performance_matrics/Figure_2B_precision_vs_recall_observer_to_active_nest.png "Precision vs recall: observer to active nest")
 
 ### Gold standard performance
