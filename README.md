@@ -193,28 +193,16 @@ Generalised linear models (GLM) testing the effects of incubating parent (sex, m
 
 **Top-ranked GLM models (δAICc ≤ 2)**
 ```
--------------------------------------------------------------------------------------
-Equation	                        AICc    δAICc	R2	LogLik	 Weight
-Nest visibility ~ Aspect	        71.06	0.00	0.00	-33.53	 1.00
-Nest visibility ~ Minimum age	        70.66	0.00	0.01	-33.33	 1.00
-Nest visibility ~ Sex	                67.98	0.00	0.05	-31.99	 1.00
-Nest visibility ~ Slope	                71.08	0.03	0.00	-33.54	 0.99
-Nest visibility ~ Minimum age + Sex	69.82	1.84	0.05	-31.91	 0.40
-Nest visibility ~ Aspect + Sex	        69.95	1.97	0.05	-31.97	 0.37
-Nest visibility ~ Slope + Sex	        69.95	1.97	0.05	-31.97	 0.37
--------------------------------------------------------------------------------------
-```
-
-**Conditionally averaged results from top-ranked GLM models (δAICc ≤ 2)**
-```
-----------------------------------------------------------------------------------------------
-Predictor	   Model-averaged coef	  SE	   95% CI (Lower)  95% CI (Upper)  p-value
-Interval	   -0.79	          1.03	   -2.80	   1.22	          0.44
-Aspect	            0.00	          0.00	   -0.01	   0.01	          0.86
-Slope	           -0.05	          0.62	   -1.27	   1.16	          0.93
-Minimum age	   -0.02	          0.05	   -0.11	   0.07	          0.60
-Sex (Male:Female)   1.04                  0.61	   -0.15	   2.24	          0.09
-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Equation	                        AICc    δAICc	R2	LogLik	 Weight	   95% CI           Coefficient (p-value)
+Nest detectability ~ Aspect	        71.06	0.00	0.00	-33.53	 1.00      (-2.71, 1.15)    Aspect: 0.00 (p = 0.87)
+Nest detectability ~ Minimum age	70.66	0.00	0.01	-33.33	 1.00      (-1.64, 1.26)    Minimum age: -0.02 (p = 0.52)
+Nest detectability ~ Sex	        67.98	0.00	0.05	-31.99	 1.00      (-2.12, -0.29)   Sex: 1.05 (p = 0.08)
+Nest detectability ~ Slope	        71.08	0.03	0.00	-33.54	 0.99      (-3.13, 1.83)    Slope: 0.01 (p = 0.99)
+Nest detectability ~ Minimum age + Sex	69.82	1.84	0.05	-31.91	 0.40      (-2.63, 0.84)    Minimum age: -0.02 (p = 0.68); Sex: 1.02 (p = 0.10)
+Nest detectability ~ Aspect + Sex	69.95	1.97	0.05	-31.97	 0.37      (-3.50, 0.73)    Aspect: 0.00 (p = 0.85); Sex 1.05 (p = 0.08)
+Nest detectability ~ Slope + Sex	69.95	1.97	0.05	-31.97	 0.37      (-3.56, 1.60)    Slope: -0.11 (p = 0.86); Sex: 1.06 (p = 0.08)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
 ### Observer performance
@@ -227,15 +215,15 @@ Summary of detection metrics (F-score, precision and recall values) for presumed
 ### Gold standard performance
 Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard in orthorectified and non-orthorectified satellite image relative to active nests. The number of nests matched and reference annotations that did not match a nest are included. 
 ```
-----------------------------------------------------------------------------------------------
-Image	  Annotator	Precision Recall F1 score GPS nests Nest matched No match Total ref 
-Ortho	  ref 1	        0.92	  0.54   0.68	  152	    82	         7	  89
-	  ref 2	        0.89	  0.70   0.79	  152	    107	         13	  120
-	  Gold standard 0.89	  0.68   0.77	  152	    103	         13	  116
-Non-ortho ref 1	        0.82	  0.55   0.66	  152	    84	         19	  103
-	  ref 2	        0.82	  0.67   0.74	  152	    102	         22	  124
-	  gold standard 0.81	  0.60   0.69	  152	    91	         22	  113
-----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+Image correction       Annotator	Precision Recall F1 score GPS nests Nest matched No match Total ref 
+Orthorectified 	       ref 1	        0.92	  0.54   0.68	  152	    82	         7	  89
+	               ref 2	        0.89	  0.70   0.79	  152	    107	         13	  120
+	               Gold standard    0.89	  0.68   0.77	  152	    103	         13	  116
+Non-orthorectified     ref 1	        0.82	  0.55   0.66	  152	    84	         19	  103
+	               ref 2	        0.82	  0.67   0.74	  152	    102	         22	  124
+	               gold standard    0.81	  0.60   0.69	  152	    91	         22	  113
+----------------------------------------------------------------------------------------------------------------
 ```
 
 ### Observer clustered data
@@ -269,4 +257,4 @@ The code in this repository is licensed under an open-source license. The satell
 
 ## Funding
 
-Funding was provided by the Darwin Plus (grant ID: DPR9S2\1032). For more details, visit the Darwin Initiative project website: https://www.darwininitiative.org.uk/project/DPLUS132
+Funding was provided by the Darwin Plus (Project ID: DPLUS132). For more details, visit the Darwin Initiative project website: https://www.darwininitiative.org.uk/project/DPLUS132
