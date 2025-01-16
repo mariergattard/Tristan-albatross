@@ -168,7 +168,7 @@ Generalised linear model (GLM) results for the influence of minimum age on the d
                 Estimate	 SE	z	p	OR              OR SE	OR z	OR p
 ----------------------------------------------------------------------------------------------
 (Intercept)	0.01             1.10   0.07	0.99	1.01            1.09	0.01	0.99
-                [-4.18, 0.65]                           [0.12, 8.31]	
+                [-2.10, 2.12]                           [0.12, 8.31]	
 	
 Minimum age	0.05             0.06	0.79	0.43	1.05            0.07	0.77	0.44
                 [-0.07, 0.17]				[0.93, 1.19]	
