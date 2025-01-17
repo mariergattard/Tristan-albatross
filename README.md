@@ -292,4 +292,4 @@ The code in this repository is licensed under an open-source licence. The satell
 
 Funding was provided by the Darwin Plus (Project ID: DPLUS132). For more details, visit the Darwin Initiative project website: https://www.darwininitiative.org.uk/project/DPLUS132
 
-![logo](./logo/darwin-plus-logo-black.png width="200")
+<img src="./logo/darwin-plus-logo-black.png" alt="Darwin Plus logo" width="200">
