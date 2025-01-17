@@ -250,11 +250,11 @@ Summary of detection metrics (F-score, precision and recall values) for presumed
 ```
 ----------------------------------------------------------------------------------------------------------------
 Image correction       Annotator	Precision Recall F1 score GPS nests Nest matched No match Total ref 
-Orthorectified 	       ref 1	        0.92	  0.54   0.68	  152	    82	         7	  89
-	               ref 2	        0.89	  0.70   0.79	  152	    107	         13	  120
-	               Gold standard    0.89	  0.68   0.77	  152	    103	         13	  116
-Non-orthorectified     ref 1	        0.82	  0.55   0.66	  152	    84	         19	  103
-	               ref 2	        0.82	  0.67   0.74	  152	    102	         22	  124
+Orthorectified 	       expert 1	        0.92	  0.54   0.68	  152	    82	         7	  89
+	               expert 2	        0.89	  0.70   0.79	  152	    107	         13	  120
+	               gold standard    0.89	  0.68   0.77	  152	    103	         13	  116
+Non-orthorectified     expert 1	        0.82	  0.55   0.66	  152	    84	         19	  103
+	               expert 2	        0.82	  0.67   0.74	  152	    102	         22	  124
 	               gold standard    0.81	  0.60   0.69	  152	    91	         22	  113
 ----------------------------------------------------------------------------------------------------------------
 ```
