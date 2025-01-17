@@ -274,7 +274,7 @@ Example of a tile with spatially clustered data, with the number of observers in
 
 If you reuse or adapt this script, please cite the associated manuscript:
 
-Marie R. G. Attard, Richard A. Phillips, Steffen Oppel, Ellen Bowler and Peter T. Fretwell (In Review) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. *Endangered Species Research*.
+Marie R. G. Attard, Richard A. Phillips, Steffen Oppel, Ellen Bowler and Peter T. Fretwell (2025) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. *Endangered Species Research*.
 
 ## Acknowledgements
 
