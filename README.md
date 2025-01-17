@@ -72,12 +72,10 @@ The Python script processes the data and performs the necessary analysis to dete
 4. Performance Metrics:
 
 - Metrics were calculated to evaluate observer performance:
-	- *Recall* = TPs/(TPs + FNs)
-	- *Precision* = TPs/(TPs + FPs)
-	- *F1⎼score* = 2 x (recall × precision)/(recall + precision) 
-- Recall measures how well the observer identifies true positives (i.e., the proportion of actual albatrosses correctly predicted).
-- Precision measures the quality of positive predictions (i.e., the proportion of predicted albatrosses that are truly present).
-- F1-Scores range from 0 to 1, with higher values indicating better overall performance.
+	- Recall = TPs/(TPs + FNs)
+	- Precision = TPs/(TPs + FPs)
+	- F1⎼score = 2 x (recall × precision)/(recall + precision) 
+- Recall measures how well the observer identifies true positives (i.e., the proportion of actual albatrosses correctly predicted). Precision measures the quality of positive predictions (i.e., the proportion of predicted albatrosses that are truly present). F1-Scores range from 0 to 1, with higher values indicating better overall performance.
 
 ### Script workflow:
 1. Loads the necessary data (csv, xlsx, or jpeg files from the data folder).
