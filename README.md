@@ -6,7 +6,7 @@
 This repository contains the data and Python script used in the study:
 Attard et al. (2025) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. *Endangered Species Research*.
 
-The study evaluates the detectability of Tristan Albatrosses in high-resolution WorldView-4 satellite imagery (31 cm resolution) over Gough Island, Tristan da Cunha. The goal is to determine whether satellite imagery can facilitate population monitoring of this critically endangered species during the breeding season.
+The study evaluates the detectability of Tristan albatrosses in high-resolution WorldView-4 satellite imagery (31 cm resolution) over Gough Island, Tristan da Cunha. The goal is to determine whether satellite imagery can facilitate population monitoring of this critically endangered species during the breeding season.
 
 ---
 
@@ -15,6 +15,8 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
 <!-- TOC -->
 * [Introduction](#introduction)
 * [Script Overview and Workflow](#script-overview-and-workflow)
+    * [Workflow summary](#workflow-summary)
+    * [Script workflow](#script-workflow)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Structure](#structure)
@@ -42,9 +44,42 @@ This repository includes a Python script that automates the analysis of satellit
 
 ## Script Overview and Workflow
 
-The Python script processes the data and performs the necessary analysis to determine the visibility and detectability of Tristan albatrosses in satellite imagery. It uses the input data from the various folders and generates output plots and tables for further analysis.
+The Python script processes the data and performs the necessary analysis to determine the detectability of Tristan albatrosses in 31 cm resolution satellite imagery. It uses input data from the various folders and generates output plots and tables for further analysis. 
 
-Script workflow:
+### Workflow summary
+
+1. Gold Standard Dataset:
+
+- Two wildlife remote-sensing specialists (expert 1 and expert 2) conducted manual counts of orthorectified and non-orthorectified images.
+- Features confidently classified as presumed albatrosses by both experts were retained, creating a ‘gold standard’ dataset.
+- This dataset was compared with GPS-recorded active nest locations to test whether nest attributes (slope, aspect) or bird plumage (indicating sex and age) influenced detectability in satellite imagery.
+
+2. Observer Annotations:
+
+- The orthorectified satellite image was divided into 100 m x 100 m tiles (10,000 m² per tile), producing 303 tiles covering a total area of 3.03 km².
+- A random number generator selected 24 tiles containing at least one nest and 6 tiles with no nests based on GPS data.
+- These tiles were uploaded to the VGG Image Annotator (VIA), an open-source annotation tool. Nine volunteers (observers 1 to 9) were provided instructions to locate and label albatrosses.
+- Observer misclassification rates were assessed against one another, the gold standard, and the nest GPS coordinates.
+
+3. Metrics and Analysis:
+
+- Observations were classified as:
+	- True Positive (TP): Albatrosses correctly predicted to be present.
+	- False Positive (FP): Albatrosses incorrectly predicted to be present.
+	- False Negative (FN): Albatrosses incorrectly predicted to be absent.
+- Annotations classified as true positives were those located within 3 m of the gold standard or another observer, as Tristan albatross nests are usually > 3 m apart, or within 10 m of the nest GPS coordinates, based on the accuracy of the handheld GPS device.
+
+4. Performance Metrics:
+
+- Metrics were calculated to evaluate observer performance:
+	- *Recall*=  TPs/(TPs+FNs)
+​	- *Precision* =  TPs/(TPs+FPs)
+	- *F1⎼score*= 2 x  (recall × precision)/(recall+precision) 
+- Recall measures how well the observer identifies true positives (i.e., the proportion of actual albatrosses correctly predicted).
+- Precision measures the quality of positive predictions (i.e., the proportion of predicted albatrosses that are truly present).
+- F1-Scores range from 0 to 1, with higher values indicating better overall performance.
+
+### Script workflow:
 1. Loads the necessary data (csv, xlsx, or jpeg files from the data folder).
 2. Processes the satellite imagery data and field survey nest GPS coordinates.
 3. Conducts an analysis to assess albatross detectability based on various predictors.
