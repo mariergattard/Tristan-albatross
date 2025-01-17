@@ -47,20 +47,20 @@ The Python script processes the data and performs the necessary analysis to dete
 
 ### Workflow summary
 
-1. Gold Standard Dataset:
+1. Gold standard dataset:
 
 - Two wildlife remote-sensing specialists (expert 1 and expert 2) conducted manual counts of orthorectified and non-orthorectified images.
 - Features confidently classified as presumed albatrosses by both experts were retained, creating a ‘gold standard’ dataset.
 - This dataset was compared with GPS-recorded active nest locations to test whether nest attributes (slope, aspect) or bird plumage (indicating sex and age) influenced detectability in satellite imagery.
 
-2. Observer Annotations:
+2. Observer annotations:
 
 - The orthorectified satellite image was divided into 100 m x 100 m tiles (10,000 m² per tile), producing 303 tiles covering a total area of 3.03 km².
 - A random number generator selected 24 tiles containing at least one nest and 6 tiles with no nests based on GPS data.
 - These tiles were uploaded to the VGG Image Annotator (VIA), an open-source annotation tool. Nine volunteers (observers 1 to 9) were provided instructions to locate and label albatrosses.
 - Observer misclassification rates were assessed against one another, the gold standard, and the nest GPS coordinates.
 
-3. Metrics and Analysis:
+3. Metrics and analysis:
 
 - Observations were classified as:
 	- True Positive (TP): Albatrosses correctly predicted to be present.
@@ -68,7 +68,7 @@ The Python script processes the data and performs the necessary analysis to dete
 	- False Negative (FN): Albatrosses incorrectly predicted to be absent.
 - Annotations classified as true positives were those located within 3 m of the gold standard or another observer, as Tristan albatross nests are usually > 3 m apart, or within 10 m of the nest GPS coordinates, based on the accuracy of the handheld GPS device.
 
-4. Performance Metrics:
+4. Performance metrics:
 
 - Metrics were calculated to evaluate observer performance:
 	- Recall = TPs/(TPs + FNs)
