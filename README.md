@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/ninagw3/Walrus_from_space?color=green)
 
 This repository contains the data and Python script used in the study:
-Attard et al. (In review) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. *Endangered Species Research*.
+Attard et al. (2025) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. *Endangered Species Research*.
 
 The study evaluates the detectability of Tristan Albatrosses in high-resolution WorldView-4 satellite imagery (31 cm resolution) over Gough Island, Tristan da Cunha. The goal is to determine whether satellite imagery can facilitate population monitoring of this critically endangered species during the breeding season.
 
@@ -22,12 +22,12 @@ The study evaluates the detectability of Tristan Albatrosses in high-resolution 
     * [GLM minimum age](#glm-minimum-age)
     * [GLM model comparison](#glm-model-comparison)
     * [Chi-squared test](#chi-squared-test)
-    * [Observer performance](#pbserver-performance)
+    * [Observer performance](#observer-performance)
     * [Gold standard performance](#gold-standard-performance)
     * [Observer clustered data](#observer-clustered-data)
 * [Reusing or Adapting the script](#reusing-or-adapting-the-script)
 * [Acknowledgements](#acknowledgements)
-* [License](#license)
+* [Licence](#licence)
 * [Funding](#funding)
 
 <!-- TOC -->
@@ -254,7 +254,7 @@ We sincerely thank Penny Clarke for her invaluable assistance as a reference ann
 
 ## Licence
 
-The code in this repository is licensed under an open-source license. The satellite images and annotations are subject to the Maxar Satellite Imagery License Agreement: https://www.maxar.com/legal/internal-use-license
+The code in this repository is licensed under an open-source licence. The satellite images and annotations are subject to the Maxar Satellite Imagery License Agreement: https://www.maxar.com/legal/internal-use-license
 
 ## Funding
 
