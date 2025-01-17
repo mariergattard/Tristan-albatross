@@ -44,7 +44,7 @@ This repository includes a Python script that automates the analysis of satellit
 
 ## Script Overview and Workflow
 
-The Python script processes the data and performs the necessary analysis to determine the detectability of Tristan albatrosses in 31 cm resolution satellite imagery. It uses input data from the various folders and generates output plots and tables for further analysis. 
+The Python script processes the data and performs the necessary analysis to determine the detectability of Tristan albatrosses in 31 cm resolution satellite imagery. It uses input data from the various folders to run statistical analysis and generate output plots and tables. 
 
 ### Workflow summary
 
