@@ -23,7 +23,6 @@ The study evaluates the detectability of Tristan albatrosses in high-resolution 
 * [Results](#results)
     * [GLM minimum age](#glm-minimum-age)
     * [GLM model comparison](#glm-model-comparison)
-    * [Chi-squared test](#chi-squared-test)
     * [Observer performance](#observer-performance)
     * [Gold standard performance](#gold-standard-performance)
     * [Observer clustered data](#observer-clustered-data)
