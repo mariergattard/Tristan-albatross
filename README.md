@@ -47,22 +47,25 @@ The Python script processes the data and performs the necessary analysis to dete
 
 ### Workflow summary
 
-This study uses a single WorldView-4 image (33 cm ground sampling distance resampled to 30 cm resolution) taken at 10:46 am on 1st February 2018. The satellite image consisted of multi-spectral and panchromatic files that were processed in ArcGIS Pro (v3.3.0). The image was orthorectified using a Digital Terrain Model (DTM) from Airbus (product WorldDEMTM) to remove distortion and assign more accurate coordinates. The DTM represented bare earth terrain without obstruction features above ground, and had an absolute vertical accuracy of < 10 m and absolute horizontal accuracy of < 6 m. The Gram-Schmidt pansharpening method was then applied to produce a better visualisation of the multiband image using the high-resolution (30 cm) panchromatic image.   
+1. Satellite image of Gough Island:
 
-1. Gold standard dataset:
+- This study uses a single WorldView-4 image (33 cm ground sampling distance resampled to 30 cm resolution) taken at 10:46 am on 1st February 2018. This partially cloud-free satellite image included two main study sites on Gough Island where Tristan albatross breed: Gonydale and the Hummocks. The satellite image consisted of multi-spectral and panchromatic files that were processed in ArcGIS Pro (v3.3.0). 
+- The satellite image was orthorectified using a Digital Terrain Model (DTM) from Airbus (product WorldDEMTM) to remove distortion and assign more accurate coordinates. The DTM represented bare earth terrain without obstruction features above ground, and had an absolute vertical accuracy of < 10 m and absolute horizontal accuracy of < 6 m. The Gram-Schmidt pansharpening method was then applied to produce a better visualisation of the multiband image using the high-resolution (30 cm) panchromatic image.   
+
+2. Gold standard dataset:
 
 - Two wildlife remote-sensing specialists (expert 1 and expert 2) conducted manual counts of the orthorectified and non-orthorectified image.
 - After completing independent reviews, the experts convened to jointly review their annotations and resolve any uncertainties by examining each annotation together at multiple scales. Features confidently classified as presumed albatrosses by both experts were retained, creating a ‘gold standard’ dataset.
 - This dataset was compared with GPS-recorded active nest locations to test whether nest attributes (slope, aspect) or bird plumage (indicating sex and age) influenced detectability in satellite imagery.
 
-2. Observer annotations:
+3. Observer annotations:
 
 - The orthorectified satellite image was divided into 100 m x 100 m tiles (10,000 m² per tile), producing 303 tiles covering a total area of 3.03 km².
 - A random number generator selected 24 tiles containing at least one nest and 6 tiles with no nests based on GPS data.
 - These tiles were uploaded to the VGG Image Annotator (VIA), an open-source annotation tool. Nine volunteers (observers 1 to 9) were provided instructions to locate and label albatrosses.
 - Observer misclassification rates were assessed against one another, the gold standard, and the nest GPS coordinates.
 
-3. Metrics and analysis:
+4. Metrics and analysis:
 
 - Observations were classified as:
 	- True Positive (TP): Albatrosses correctly predicted to be present.
@@ -70,7 +73,7 @@ This study uses a single WorldView-4 image (33 cm ground sampling distance resam
 	- False Negative (FN): Albatrosses incorrectly predicted to be absent.
 - Annotations classified as true positives were those located within 3 m of the gold standard or another observer, as Tristan albatross nests are usually > 3 m apart, or within 10 m of the nest GPS coordinates, based on the accuracy of the handheld GPS device.
 
-4. Performance metrics:
+5. Performance metrics:
 
 - Metrics were calculated to evaluate observer performance:
 	- Recall = TPs/(TPs + FNs)
