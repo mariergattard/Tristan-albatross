@@ -1,5 +1,6 @@
 # Tristan Albatross Satellite Image Detection Analysis
 
+[![DOI](https://zenodo.org/badge/817309465.svg)](https://doi.org/10.5281/zenodo.14711473)
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=yellow)
 ![GitHub](https://img.shields.io/github/license/ninagw3/Walrus_from_space?color=green)
 
