@@ -1,0 +1,17 @@
+cff-version: 1.1.0
+message: "If you use this GitHub project, please cite it as below."
+authors:
+  - family-names: Attard
+    given-names: Marie R. G.
+  - family-names: Phillips
+    given-names: Richard A.
+  - family-names: Oppel
+    given-names: Steffen
+  - family-names: Bowler
+    given-names: Ellen
+  - family-names: Fretwell
+    given-names: Peter T.
+title: Tristan Albatross Satellite Image Detection Analysis
+version: v0.1.0-beta
+date-released: 2025-01-21
+doi: https://doi.org/10.5281/zenodo.14711474                             
