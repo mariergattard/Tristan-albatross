@@ -47,9 +47,11 @@ The Python script processes the data and performs the necessary analysis to dete
 
 ### Workflow summary
 
+This study uses a single WorldView-4 image (33 cm ground sampling distance resampled to 30 cm resolution) taken at 10:46 am on 1st February 2018. The satellite image consisted of multi-spectral and panchromatic files that were processed in ArcGIS Pro (v3.3.0). The image was orthorectified using a Digital Terrain Model (DTM) from Airbus (product WorldDEMTM) to remove distortion and assign more accurate coordinates. The DTM represented bare earth terrain without obstruction features above ground, and had an absolute vertical accuracy of < 10 m and absolute horizontal accuracy of < 6 m. The Gram-Schmidt pansharpening method was then applied to produce a better visualisation of the multiband image using the high-resolution (30 cm) panchromatic image.   
+
 1. Gold standard dataset:
 
-- Two wildlife remote-sensing specialists (expert 1 and expert 2) conducted manual counts of orthorectified and non-orthorectified images.
+- Two wildlife remote-sensing specialists (expert 1 and expert 2) conducted manual counts of the orthorectified and non-orthorectified image.
 - After completing independent reviews, the experts convened to jointly review their annotations and resolve any uncertainties by examining each annotation together at multiple scales. Features confidently classified as presumed albatrosses by both experts were retained, creating a ‘gold standard’ dataset.
 - This dataset was compared with GPS-recorded active nest locations to test whether nest attributes (slope, aspect) or bird plumage (indicating sex and age) influenced detectability in satellite imagery.
 
