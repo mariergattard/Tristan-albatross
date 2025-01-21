@@ -242,7 +242,9 @@ Summary of detection metrics (F-score, precision and recall values) for presumed
 
 <img src="./output/observer_performance_matrics/Figure_2A_precision_vs_recall_observer_to_gold_standard.png" alt="Precision vs recall: observer to gold standard" width="600"> 
 Example of a tile with active nests shown in white circles and observer annotations shown in coloured squares. Satellite imagery © 2024 Maxar Technologies. 
-<br>
+
+
+
 
 <img src="./output/observer_performance_matrics/Figure_2B_precision_vs_recall_observer_to_active_nest.png" alt="Precision vs recall: observer to active nest" width="600"> 
 Example of a tile with spatially clustered data, with the number of observers in agreement stated inside each square. White circles show active nests recorded with a hand-held GPS during ground survey. Satellite imagery © 2024 Maxar Technologies. 
