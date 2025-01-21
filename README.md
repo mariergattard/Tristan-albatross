@@ -50,7 +50,7 @@ The Python script processes the data and performs the necessary analysis to dete
 
 1. Satellite image of Gough Island:
 
-- This study uses a single WorldView-4 image (33 cm ground sampling distance resampled to 30 cm resolution) captured at 10:46 am on 1st February 2018. The partially cloud-free satellite image included two primary study sites on Gough Island, where Tristan albatrosses breed: Gonydale and the Hummocks. The image includes multi-spectral and panchromatic files, which were processed using ArcGIS Pro (v3.3.0). 
+- This study uses a single WorldView-4 image (Image ID: 6597a402-ac69-4f62-b346-f99026536906-inv), with a ground sampling distance of 33 cm, resampled to 30 cm resolution, captured at 10:46 am on 1st February 2018. The partially cloud-free satellite image included two primary study sites on Gough Island, where Tristan albatrosses breed: Gonydale and the Hummocks. The image includes multi-spectral and panchromatic files, which were processed using ArcGIS Pro (v3.3.0). 
 - The satellite image was orthorectified using a Digital Terrain Model (DTM) from Airbus (product WorldDEMTM) to remove distortion and assign more accurate coordinates. The DTM represented bare earth terrain without obstruction features above ground, and had an absolute vertical accuracy of < 10 m and absolute horizontal accuracy of < 6 m. The Gram-Schmidt pansharpening method was then applied to produce a better visualisation of the multiband image using the high-resolution (30 cm) panchromatic image.   
 
 2. Gold standard dataset:
