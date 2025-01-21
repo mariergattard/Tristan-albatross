@@ -260,15 +260,11 @@ Non-orthorectified     expert 1	        0.82	  0.55   0.66	  152	    84	        
 ```
 
 ### Observer clustered data
-Hierarchical clustering of raw observer annotations to create the clustered dataset.
-
-<img src="./output/tile_images/tile_with_observer_nest_labels_georeferenced/11_Gough_Island_100m2_134.jpg" alt="Observer clustered dataset" width="100">
+<img src="./output/tile_images/tile_with_observer_nest_labels_georeferenced/11_Gough_Island_100m2_134.jpg" alt="Observer clustered dataset" width="400">
 Example of a tile with active nests shown in white circles and observer annotations shown in coloured squares. Satellite imagery © 2024 Maxar Technologies. 
 
-
-<img src="./output/tile_images/tiles_with_clustered_observer_nest_labels_georeferenced/11_Gough_Island_100m2_134.jpg" alt="Clustered dataset" width="100">
+<img src="./output/tile_images/tiles_with_clustered_observer_nest_labels_georeferenced/11_Gough_Island_100m2_134.jpg" alt="Clustered dataset" width="400">
 Example of a tile with spatially clustered data, with the number of observers in agreement stated inside each square. White circles show active nests recorded with a hand-held GPS during ground survey. Satellite imagery © 2024 Maxar Technologies. 
-
 
 ## Reusing or Adapting the Script
 
