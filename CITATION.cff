@@ -1,4 +1,4 @@
-cff-version: 1.0.0
+cff-version: 1.2.0
 message: "If you use this GitHub project, please cite it as below."
 authors:
   - family-names: Attard
@@ -15,6 +15,7 @@ title: Tristan Albatross Satellite Image Detection Analysis
 version: v1.0.0
 date-released: 2025-04-04
 doi: https://doi.org/10.5281/zenodo.14711474
+
 # Journal article citation
 references:
   - type: article
@@ -29,7 +30,7 @@ references:
         given-names: Ellen
       - family-names: Fretwell
         given-names: Peter T.
-    title: Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses Diomedea dabbenena on Gough Island
+    title: "Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island"
     journal: Endangered Species Research
     volume: 56
     pages: 187-199
