@@ -258,16 +258,16 @@ Example of a tile with spatially clustered data, with the number of observers in
 
 
 ### Gold standard performance
-Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard in orthorectified and non-orthorectified satellite image relative to active nests. The number of nests matched and reference annotations that did not match a nest are included. 
+Summary of detection metrics (F-score, precision and recall values) for presumed albatrosses annotated by references and gold standard in orthorectified and un-orthorectified satellite image relative to active nests. The number of nests matched and reference annotations that did not match a nest are included. 
 ```
 ----------------------------------------------------------------------------------------------------------------
 Image correction       Annotator	Precision Recall F1 score GPS nests Nest matched No match Total ref 
-Orthorectified 	       expert 1	        0.92	  0.54   0.68	  152	    82	         7	  89
-	               expert 2	        0.89	  0.70   0.79	  152	    107	         13	  120
-	               gold standard    0.89	  0.68   0.77	  152	    103	         13	  116
-Non-orthorectified     expert 1	        0.82	  0.55   0.66	  152	    84	         19	  103
-	               expert 2	        0.82	  0.67   0.74	  152	    102	         22	  124
-	               gold standard    0.81	  0.60   0.69	  152	    91	         22	  113
+Orthorectified 	       Expert 1	        0.92	  0.54   0.68	  152	    82	         7	  89
+	               Expert 2	        0.89	  0.70   0.79	  152	    107	         13	  120
+	               Gold standard    0.89	  0.68   0.77	  152	    103	         13	  116
+Un-orthorectified     Expert 1	        0.82	  0.55   0.66	  152	    84	         19	  103
+	               Expert 2	        0.82	  0.67   0.74	  152	    102	         22	  124
+	               Gold standard    0.81	  0.60   0.69	  152	    91	         22	  113
 ----------------------------------------------------------------------------------------------------------------
 ```
 
@@ -297,6 +297,6 @@ The satellite images and annotations are subject to the [Maxar Satellite Imagery
 
 ## Funding
 
-Funding was provided by the Darwin Plus (Project ID: DPLUS132). For more details, visit the Darwin Initiative project website: https://www.darwininitiative.org.uk/project/DPLUS132
+Funding was provided by the Darwin Plus (Project ID: DPLUS132). For more details, visit the [Darwin Initiative project website](https://www.darwininitiative.org.uk/project/DPLUS132)
 
 <img src="./logo/darwin-plus-logo-black.png" alt="Darwin Plus logo" width="200">
