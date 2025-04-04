@@ -56,7 +56,7 @@ The Python script processes the data and performs the necessary analysis to dete
 
 2. Gold standard dataset:
 
-- Two wildlife remote-sensing specialists (expert 1 and expert 2) conducted manual counts of the orthorectified and non-orthorectified image.
+- Two wildlife remote-sensing specialists (expert 1 and expert 2) conducted manual counts of the orthorectified and un-orthorectified image.
 - After completing independent reviews, the experts convened to jointly review their annotations and resolve any uncertainties by examining each annotation together at multiple scales. Features confidently classified as presumed albatrosses by both experts were retained, creating a ‘gold standard’ dataset.
 - This dataset was compared with GPS-recorded active nest locations to test whether nest attributes (slope, aspect) or bird plumage (indicating sex and age) influenced detectability in satellite imagery.
 
