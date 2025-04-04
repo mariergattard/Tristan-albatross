@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/817309465.svg)](https://doi.org/10.5281/zenodo.14711473)
 ![Maxar Satellite Imagery License](https://img.shields.io/badge/License-Maxar%20Satellite%20Imagery%20License-yellow)
 ![NERC Data Policy](https://img.shields.io/badge/License-NERC%20Data%20Policy-green)
-![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=red)
+![Static Badge](https://img.shields.io/badge/python-red?logo=python&logoColor=yellow)
 
 This repository contains the data and Python script used in the study:
 Attard et al. (2025) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. *Endangered Species Research*. 56: 187-199. doi: [10.3354/esr01396](https://doi.org/10.3354/esr01396)
