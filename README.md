@@ -1,9 +1,9 @@
 # Tristan Albatross Satellite Image Detection Analysis
 
 [![DOI](https://zenodo.org/badge/817309465.svg)](https://doi.org/10.5281/zenodo.14711473)
-![Maxar Satellite Imagery License](https://img.shields.io/badge/License-Maxar%20Satellite%20Imagery%20License-yellow)
-![Open Government License v3.0](https://img.shields.io/badge/License-Open%20Government%20License%20v3-green)
-![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=yellow)
+[![Maxar Satellite Imagery License](https://img.shields.io/badge/License-Maxar%20Satellite%20Imagery%20License-yellow)](https://www.maxar.com/legal/internal-use-license)
+[![Open Government License v3.0](https://img.shields.io/badge/License-Open%20Government%20License%20v3-green)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+[![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=yellow)](https://www.python.org/)
 
 This repository contains the data and Python script used in the study:
 Attard et al. (2025) Feasibility of using very high-resolution satellite imagery to monitor Tristan albatrosses *Diomedea dabbenena* on Gough Island. *Endangered Species Research*. 56: 187-199. doi: [10.3354/esr01396](https://doi.org/10.3354/esr01396)
