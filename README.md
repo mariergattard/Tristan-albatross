@@ -293,7 +293,7 @@ We acknowledge the Conservation Data Management Unit at RSPB, particularly Alex 
 We sincerely thank Penny Clarke for her invaluable assistance as a reference annotator, and Cath Attard, Connor Bamford, Marcia Blyth, Hannah Cubaynes, Hana Merchant, Elizabeth Pearmain, Norman Ratcliffe, and Sally Thorpe for their efforts in completing observer annotations. Finally, we thank Maxar technologies for granting permission to publish satellite image tiles and associated annotations derived from their imagery.
 
 ## Licence
-The satellite images and annotations are subject to the [Maxar Satellite Imagery License Agreement](https://www.maxar.com/legal/internal-use-license). The python script and all other data in this repository is governed by the [NERC data policy](http://www.nerc.ac.uk/research/sites/data/policy/) and supplied under [Open Government Licence v.3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+The satellite images and annotations are subject to the [Maxar Satellite Imagery License Agreement](https://www.maxar.com/legal/internal-use-license). The python script and all other data in this repository is governed by the [NERC data policy](https://www.ukri.org/who-we-are/nerc/our-policies-and-standards/nerc-data-policy/) and supplied under [Open Government Licence v.3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 ## Funding
 
