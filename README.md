@@ -1,9 +1,8 @@
 # Tristan Albatross Satellite Image Detection Analysis
 
 [![DOI](https://zenodo.org/badge/817309465.svg)](https://doi.org/10.5281/zenodo.14711473)
-![Maxar Satellite Imagery License](https://img.shields.io/badge/License-Maxar%20Satellite%20Imagery%20License-blue)
-![NERC Data Policy](https://img.shields.io/badge/License-NERC%20Data%20Policy-lightgreen)
-![GitHub](https://img.shields.io/github/license/ninagw3/Walrus_from_space?color=green)
+![Maxar Satellite Imagery License](https://img.shields.io/badge/License-Maxar%20Satellite%20Imagery%20License-yellow)
+![NERC Data Policy](https://img.shields.io/badge/License-NERC%20Data%20Policy-green)
 ![Static Badge](https://img.shields.io/badge/python-blue?logo=python&logoColor=yellow)
 
 This repository contains the data and Python script used in the study:
